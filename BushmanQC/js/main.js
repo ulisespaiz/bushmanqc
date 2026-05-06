@@ -143,7 +143,17 @@
     }
   }
 
-  /* 8. Active nav link highlight on scroll */
+  /* 8. Announcement bar close button */
+  const annBar = document.getElementById('announcement-bar');
+  const annClose = annBar ? annBar.querySelector('.ann-close') : null;
+
+  if (annBar && annClose) {
+    annClose.addEventListener('click', function () {
+      annBar.style.display = 'none';
+    });
+  }
+
+  /* 9. Active nav link highlight on scroll */
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
