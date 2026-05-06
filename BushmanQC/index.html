@@ -14,7 +14,7 @@
   <meta property="og:description" content="Each medical device company needs a Quality Management System. But which is best for you? Ask Nellie, and find out in 30 minutes, free!">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bushmanqc.com/">
-  <meta property="og:image" content="https://bushmanqc.com/images/og-image.png">
+  <meta property="og:image" content="https://bushmanqc.com/images/logo.webp">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -27,16 +27,8 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/hero.css">
-  <link rel="stylesheet" href="css/trust.css">
-  <link rel="stylesheet" href="css/services.css">
-  <link rel="stylesheet" href="css/how-it-works.css">
-  <link rel="stylesheet" href="css/testimonials.css">
-  <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/cta.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="preload" as="image" href="images/nellie.webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/site.css">
 
   <!-- Schema.org -->
   <script type="application/ld+json">
@@ -70,7 +62,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>
       Schedule Appointment
     </a>
-    <button class="ann-close" aria-label="Close announcement" onclick="this.parentElement.style.display='none'">&times;</button>
+    <button class="ann-close" aria-label="Close announcement">&times;</button>
   </div>
 
   <!-- CONTACT BAR -->
@@ -142,15 +134,15 @@
 
     <!-- ========== TRUST STRIP ========== -->
     <div class="trust-strip" aria-label="Compliance standards">
-      <div class="trust-inner">
-        <span class="trust-badge">FDA 21 CFR 820</span>
-        <span class="trust-dot" aria-hidden="true"></span>
-        <span class="trust-badge">ISO 13485</span>
-        <span class="trust-dot" aria-hidden="true"></span>
-        <span class="trust-badge">21 CFR Part 11</span>
-        <span class="trust-dot" aria-hidden="true"></span>
-        <span class="trust-badge">Virtual-First</span>
-      </div>
+      <ul class="trust-inner">
+        <li class="trust-badge">FDA 21 CFR 820</li>
+        <li class="trust-dot" aria-hidden="true"></li>
+        <li class="trust-badge">ISO 13485</li>
+        <li class="trust-dot" aria-hidden="true"></li>
+        <li class="trust-badge">21 CFR Part 11</li>
+        <li class="trust-dot" aria-hidden="true"></li>
+        <li class="trust-badge">Virtual-First</li>
+      </ul>
     </div>
 
     <!-- ========== SERVICES ========== -->
