@@ -3,23 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BushmanQC — Virtual Quality Management System for Medical Devices</title>
-  <meta name="description" content="Each medical device company needs a Quality Management System. But which is best for you? Ask Nellie, and find out in 30 minutes, free!">
-  <meta name="keywords" content="Virtual QMS, Quality Management System, medical device, FDA 21 CFR 820, ISO 13485, VQMS, quality consulting">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#6B5B95">
+  <title>Virtual QMS for Medical Devices | BushmanQC — FDA 21 CFR 820 & ISO 13485</title>
+  <meta name="description" content="Virtual Quality Management System consulting for medical device startups. FDA 21 CFR 820 and ISO 13485 compliance — implemented simply, virtually, and cost-effectively. Free 30-minute consultation with Nellie Bushman.">
   <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="canonical" href="https://bushmanqc.com/">
 
+  <!-- Search Console / Webmaster verification (replace placeholders when accounts are created) -->
+  <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
+  <meta name="msvalidate.01" content="REPLACE_WITH_BING_TOKEN">
+
   <!-- Open Graph -->
-  <meta property="og:title" content="BushmanQC — Virtual QMS for Medical Devices">
-  <meta property="og:description" content="Each medical device company needs a Quality Management System. But which is best for you? Ask Nellie, and find out in 30 minutes, free!">
+  <meta property="og:title" content="Virtual QMS for Medical Devices | BushmanQC">
+  <meta property="og:description" content="FDA 21 CFR 820 & ISO 13485 compliance for medical device startups — implemented simply and virtually. Free 30-minute consultation with Nellie Bushman.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bushmanqc.com/">
-  <meta property="og:image" content="https://bushmanqc.com/images/logo.webp">
+  <meta property="og:image" content="https://bushmanqc.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BushmanQC — Virtual Quality Management Systems for medical device startups">
+  <meta property="og:site_name" content="BushmanQC">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="BushmanQC — Virtual QMS for Medical Devices">
-  <meta name="twitter:description" content="Each medical device company needs a Quality Management System. But which is best for you? Ask Nellie, and find out in 30 minutes, free!">
+  <meta name="twitter:title" content="Virtual QMS for Medical Devices | BushmanQC">
+  <meta name="twitter:description" content="FDA 21 CFR 820 & ISO 13485 compliance for medical device startups — implemented simply and virtually.">
+  <meta name="twitter:image" content="https://bushmanqc.com/images/og-image.jpg">
+  <meta name="twitter:image:alt" content="BushmanQC — Virtual Quality Management Systems for medical device startups">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,24 +43,134 @@
   <link rel="preload" as="image" href="images/nellie.webp" fetchpriority="high">
   <link rel="stylesheet" href="css/site.css">
 
-  <!-- Schema.org -->
+  <!-- Schema.org structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "BushmanQC Virtual QMS",
-    "description": "Virtual Quality Management System consulting for small and startup medical device companies. FDA 21 CFR 820 and ISO 13485 compliance.",
-    "url": "https://bushmanqc.com",
-    "founder": {
-      "@type": "Person",
-      "name": "Nellie Bushman",
-      "jobTitle": "Quality Expert & Founder"
-    },
-    "sameAs": ["https://www.linkedin.com/in/nellie-bushman-1986784"],
-    "serviceType": ["Quality Management System Consulting", "FDA Compliance", "ISO 13485 Implementation"],
-    "areaServed": "US"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://bushmanqc.com/#organization",
+        "name": "BushmanQC",
+        "alternateName": "BushmanQC Virtual QMS",
+        "url": "https://bushmanqc.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://bushmanqc.com/images/logo.webp",
+          "caption": "BushmanQC Virtual QMS"
+        },
+        "image": "https://bushmanqc.com/images/og-image.jpg",
+        "description": "Virtual Quality Management System consulting for small and startup medical device companies. FDA 21 CFR 820 and ISO 13485 compliance, implemented virtually and cost-effectively.",
+        "founder": { "@id": "https://bushmanqc.com/#nellie" },
+        "sameAs": [
+          "https://www.linkedin.com/in/nellie-bushman-1986784"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-408-892-8242",
+          "email": "nellie@bushmanqc.com",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": ["English"]
+        }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://bushmanqc.com/#service",
+        "name": "BushmanQC Virtual QMS",
+        "url": "https://bushmanqc.com/",
+        "image": "https://bushmanqc.com/images/og-image.jpg",
+        "description": "Virtual Quality Management System (VQMS) consulting and implementation for small and startup medical device companies. FDA 21 CFR 820, ISO 13485, and 21 CFR Part 11 compliance.",
+        "provider": { "@id": "https://bushmanqc.com/#organization" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "serviceType": [
+          "Virtual Quality Management System Implementation",
+          "FDA 21 CFR 820 Compliance Consulting",
+          "ISO 13485 Implementation",
+          "21 CFR Part 11 Electronic Signature Compliance",
+          "CAPA Implementation",
+          "Supplier Management",
+          "Document Control",
+          "Training & Employee Qualification",
+          "Quality System Remediation"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "BushmanQC VQMS Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual QMS Implementation", "description": "Implement a fully compliant Virtual QMS that reduces overhead while satisfying FDA 21 CFR 820 and ISO 13485." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Document Control Management", "description": "Data organization, document change processing, and master index maintenance for full document control." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Training & Employee Qualification", "description": "Establish employee qualifications, identify training needs, and build comprehensive training programs." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Supplier Management", "description": "Robust supplier control programs and qualification processes for the full product lifecycle." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CAPA Implementation", "description": "CAPA program establishment, root cause analysis training, and ongoing CAPA program management." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Quality System Remediation", "description": "Quality System gap assessments and strategic recommendations for improvement." } }
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://bushmanqc.com/#nellie",
+        "name": "Nellie Bushman",
+        "jobTitle": "Quality Expert & Founder",
+        "image": "https://bushmanqc.com/images/nellie.webp",
+        "worksFor": { "@id": "https://bushmanqc.com/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/nellie-bushman-1986784"
+        ],
+        "knowsAbout": [
+          "Virtual Quality Management Systems",
+          "FDA 21 CFR 820",
+          "ISO 13485",
+          "21 CFR Part 11",
+          "CAPA",
+          "Supplier Management",
+          "Medical Device Quality Systems",
+          "FDA Audit Preparation"
+        ],
+        "description": "Quality expert and founder of BushmanQC with 25+ years of medical device quality management experience and a 100% audit pass rate."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://bushmanqc.com/#website",
+        "url": "https://bushmanqc.com/",
+        "name": "BushmanQC",
+        "description": "Virtual Quality Management Systems for medical device startups.",
+        "publisher": { "@id": "https://bushmanqc.com/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://bushmanqc.com/#webpage",
+        "url": "https://bushmanqc.com/",
+        "name": "Virtual QMS for Medical Devices | BushmanQC",
+        "isPartOf": { "@id": "https://bushmanqc.com/#website" },
+        "about": { "@id": "https://bushmanqc.com/#service" },
+        "primaryImageOfPage": "https://bushmanqc.com/images/og-image.jpg",
+        "breadcrumb": { "@id": "https://bushmanqc.com/#breadcrumb" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://bushmanqc.com/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bushmanqc.com/" }
+        ]
+      }
+    ]
   }
   </script>
+
+  <!-- Google Analytics 4 (replace G-XXXXXXXXXX with the real measurement ID once GA4 is set up) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script> -->
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -90,6 +213,7 @@
         <a href="about.html">About</a>
         <a href="mission.html">Mission</a>
         <a href="services.html">VQMS Implementation</a>
+        <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
         <a href="https://calendly.com/bushmanqc" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Schedule Appointment</a>
       </div>
@@ -102,6 +226,7 @@
       <a href="about.html" role="menuitem">About</a>
       <a href="mission.html" role="menuitem">Mission</a>
       <a href="services.html" role="menuitem">VQMS Implementation</a>
+      <a href="faq.html" role="menuitem">FAQ</a>
       <a href="contact.html" role="menuitem">Contact</a>
       <a href="https://calendly.com/bushmanqc" target="_blank" rel="noopener" role="menuitem">Schedule Appointment</a>
     </div>
@@ -141,6 +266,22 @@
         <li class="trust-badge">Virtual-First</li>
       </ul>
     </div>
+
+    <!-- ========== WHAT IS A VQMS ========== -->
+    <section class="explainer" id="what-is-vqms">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Virtual QMS Explained</p>
+          <h2>What Is a Virtual Quality Management System?</h2>
+          <p class="section-intro">A plain-English answer to the question every medical device founder asks first.</p>
+        </div>
+        <div class="explainer-content fade-in">
+          <p>A <strong>Virtual Quality Management System (VQMS)</strong> is a fully cloud-based Quality Management System for medical device companies — purpose-built to satisfy <strong>FDA 21 CFR 820</strong>, <strong>ISO 13485</strong>, and <strong>21 CFR Part 11</strong> without the overhead of a traditional, on-premises QMS. Every quality record — procedures, training files, supplier qualifications, design history files, CAPA records — lives in compliant cloud storage, signed with 21 CFR Part 11-compliant electronic signatures, and accessible from anywhere your team works.</p>
+          <p>For a small or startup medical device company, a Virtual QMS removes the biggest barriers to compliance: the expense of physical office space, paper-based document control, and the headcount needed to maintain an in-house quality function. Instead, you get a <em>compliant-from-day-one</em> system that scales with your product, supports remote teams, and is ready for an FDA inspection or ISO 13485 audit on day one.</p>
+          <p>BushmanQC implements your Virtual QMS in <a href="services.html">seven defined steps</a> — from qualifying users through compliant documentation — so you can stop guessing about quality and get back to what you do best: bringing safe, effective medical devices to market.</p>
+        </div>
+      </div>
+    </section>
 
     <!-- ========== SERVICES ========== -->
     <section class="services" id="services">
@@ -208,7 +349,32 @@
         </div>
 
         <div class="section-footer fade-in">
-          <a href="services.html" class="btn btn-outline">View All Services</a>
+          <a href="services.html" class="btn btn-outline">See our 7-step VQMS implementation process</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COMPLIANCE ========== -->
+    <section class="compliance" id="compliance">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Regulatory Foundation</p>
+          <h2>FDA 21 CFR 820 &amp; ISO 13485 Compliance, Without the Overhead</h2>
+          <p class="section-intro">Your Virtual QMS is built from day one to satisfy the standards that matter for US and international medical device markets.</p>
+        </div>
+        <div class="compliance-grid fade-in">
+          <div class="mission-card">
+            <h3>FDA 21 CFR 820 (QSR / QMSR)</h3>
+            <p>The US FDA's Quality System Regulation for medical device manufacturers — and its 2026 successor, the harmonized Quality Management System Regulation (QMSR). We design every Virtual QMS to meet both, so you're audit-ready before, during, and after the transition.</p>
+          </div>
+          <div class="mission-card">
+            <h3>ISO 13485</h3>
+            <p>The international standard for medical device quality management. Aligning with ISO 13485 from day one keeps the door open for European, Canadian, and global markets — without bolting on a second quality system later.</p>
+          </div>
+          <div class="mission-card">
+            <h3>21 CFR Part 11</h3>
+            <p>Compliant electronic records and electronic signatures. Every document, training record, and CAPA in your Virtual QMS is signed and stored in a way the FDA recognizes — no paper, no scanned signatures, no audit findings.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -222,7 +388,7 @@
             <h2>Your Virtual Quality Management System Partner</h2>
             <p>We help small startup medical device companies implement comprehensive quality systems while reducing operational costs through virtual solutions.</p>
             <p>A simple, easy-to-use Virtual Quality Management System (VQMS) designed specifically for companies seeking regulatory compliance with FDA 21 CFR 820 and ISO 13485 standards.</p>
-            <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+            <a href="about.html" class="btn btn-primary">Meet Nellie Bushman, Quality Expert &amp; Founder</a>
           </div>
           <div class="about-card fade-in">
             <div class="about-photo">
@@ -296,6 +462,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="mission.html">Mission</a></li>
             <li><a href="services.html">VQMS Implementation</a></li>
+            <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
