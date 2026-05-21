@@ -40,7 +40,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
 
   <!-- Styles -->
-  <link rel="preload" as="image" href="images/nellie.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="images/nellie-400.webp" fetchpriority="high">
   <link rel="stylesheet" href="css/site.css">
 
   <!-- Schema.org structured data -->
@@ -213,6 +213,7 @@
         <a href="about.html">About</a>
         <a href="mission.html">Mission</a>
         <a href="services.html">VQMS Implementation</a>
+        <a href="insights/">Insights</a>
         <a href="faq.html">FAQ</a>
         <a href="contact.html">Contact</a>
         <a href="https://calendly.com/bushmanqc" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Schedule Appointment</a>
@@ -226,6 +227,7 @@
       <a href="about.html" role="menuitem">About</a>
       <a href="mission.html" role="menuitem">Mission</a>
       <a href="services.html" role="menuitem">VQMS Implementation</a>
+      <a href="insights/" role="menuitem">Insights</a>
       <a href="faq.html" role="menuitem">FAQ</a>
       <a href="contact.html" role="menuitem">Contact</a>
       <a href="https://calendly.com/bushmanqc" target="_blank" rel="noopener" role="menuitem">Schedule Appointment</a>
@@ -247,7 +249,7 @@
         </div>
         <div class="hero-photo fade-in">
           <div class="hero-photo-wrap">
-            <img src="images/nellie.webp" alt="Nellie Bushman, Quality Expert and Founder of BushmanQC" id="hero-img" width="400" height="500" loading="eager">
+            <img src="images/nellie-400.webp" alt="Nellie Bushman, Quality Expert and Founder of BushmanQC" id="hero-img" width="400" height="500" loading="eager" fetchpriority="high">
             <div class="photo-badge">
               <div class="photo-badge-name">Nellie Bushman</div>
               <div class="photo-badge-role">Quality Expert &amp; Founder</div>
@@ -392,7 +394,7 @@
           </div>
           <div class="about-card fade-in">
             <div class="about-photo">
-              <img src="images/nellie.webp" alt="Nellie Bushman" width="400" height="500" loading="lazy">
+              <img src="images/nellie-400.webp" alt="Nellie Bushman" width="400" height="500" loading="lazy">
             </div>
             <div class="about-stat">
               <span class="stat-number">25+</span>
@@ -407,6 +409,58 @@
               <span class="stat-label">Audit pass rate</span>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LATEST INSIGHTS ========== -->
+    <section class="insights-preview" id="insights-preview">
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Insights for Medical Device Founders</p>
+          <h2>Latest from BushmanQC</h2>
+          <p class="section-intro">Plain-English guides on the regulations, transitions, and inspections shaping medical device quality in 2026.</p>
+        </div>
+        <div class="insights-grid">
+          <a class="insight-card fade-in" href="insights/qmsr-transition-checklist-2026.html">
+            <p class="insight-tag">QMSR Transition</p>
+            <h3>QMSR Transition Checklist for 2026</h3>
+            <p>A month-by-month plan to move from 21 CFR 820 to the harmonized QMSR before the FDA's February 2026 effective date.</p>
+            <span class="insight-read">Read the checklist &rarr;</span>
+          </a>
+          <a class="insight-card fade-in" href="insights/fda-21-cfr-820-vs-iso-13485.html">
+            <p class="insight-tag">Compliance 101</p>
+            <h3>FDA 21 CFR 820 vs ISO 13485: A Founder's Cheat Sheet</h3>
+            <p>Where the two standards overlap, where they diverge, and which one a US-or-EU-bound startup actually needs first.</p>
+            <span class="insight-read">Read the comparison &rarr;</span>
+          </a>
+          <a class="insight-card fade-in" href="insights/pass-first-fda-inspection.html">
+            <p class="insight-tag">Audit Prep</p>
+            <h3>How to Pass Your First FDA Inspection</h3>
+            <p>The pre-inspection checklist, what investigators actually look at, and the top five 483 observations to avoid.</p>
+            <span class="insight-read">Read the guide &rarr;</span>
+          </a>
+        </div>
+        <div class="section-footer fade-in">
+          <a href="insights/" class="btn btn-outline">Browse all Insights</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS (hidden until populated; see README-SEO.md) ========== -->
+    <section class="testimonials" id="testimonials" hidden>
+      <div class="section-inner">
+        <div class="section-header fade-in">
+          <p class="section-eyebrow">Client Stories</p>
+          <h2>What Medical Device Founders Say</h2>
+        </div>
+        <div class="testimonial-grid">
+          <!--
+          <figure class="testimonial-card">
+            <blockquote>"Quote from client about working with Nellie."</blockquote>
+            <figcaption>— Client Name, Title, Company</figcaption>
+          </figure>
+          -->
         </div>
       </div>
     </section>
@@ -462,6 +516,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="mission.html">Mission</a></li>
             <li><a href="services.html">VQMS Implementation</a></li>
+            <li><a href="insights/">Insights</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
