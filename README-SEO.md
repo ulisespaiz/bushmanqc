@@ -23,6 +23,17 @@ A summary, so you know what's already done:
 
 There's also a `/root/.claude/plans/how-is-the-seo-quirky-frog.md` file with the original audit + plan, if you want the full reasoning.
 
+### Update — 2026-05-29 pass
+
+A follow-up pass added a few more code-level fixes on top of the above:
+
+- **Explicit `width`/`height` on the logo `<img>` tags** (nav + footer, all 7 pages) so the browser reserves the right space and doesn't shift the layout while the logo loads — a Cumulative Layout Shift (CLS) / Core Web Vitals improvement.
+- **Business location added to the structured data** (`PostalAddress`: Gilroy, CA, US) on the `Organization` entity (homepage + contact page). This strengthens local / geographic relevance and lines up with the Google Business Profile step (#6 below). No street address is published — appropriate for a service-area business.
+- **Heading hierarchy fixed on `services.html`**: the six service titles and the four inline-FAQ questions were `<h2>`; they are now `<h3>` nested under their section `<h2>`, giving the page a clean H1 → H2 → H3 outline.
+- **`sitemap.xml` `lastmod` refreshed** to reflect these edits.
+
+The owner tasks below (Search Console, analytics, the OG image, real WebP conversion, Business Profile, backlinks) are still the highest-leverage items and remain outstanding.
+
 ---
 
 ## Owner tasks — do these to actually unlock the ranking benefit
@@ -94,9 +105,9 @@ Easiest way to make `og-image.jpg`: open Canva → "Custom size" → 1200×630 �
 
 Once those exist, test the social preview at <https://www.opengraph.xyz/url/https%3A%2F%2Fbushmanqc.com%2F> — you should see the 1200×630 image.
 
-### 5. Optimize `nellie.webp` (~10 min, optional but recommended)
+### 5. Convert the images to real WebP (~10 min, recommended)
 
-The current hero image (`images/nellie.webp`) is 292 KB. That's heavy for a 400×500 display size. Cutting it to ~50 KB will measurably improve PageSpeed scores (which Google uses as a ranking tiebreaker).
+**Heads-up — the images aren't actually WebP.** Despite the `.webp` extension, `images/logo.webp` and `images/nellie.webp` are really PNG files (verified: `nellie.webp` is PNG 400×500, 292 KB; `logo.webp` is PNG 446×135). Browsers still render them, but you're getting none of WebP's compression. `nellie.webp` at 292 KB is the heaviest asset on the site and it's the hero image, so it directly drags down Largest Contentful Paint (a Core Web Vital Google uses for ranking). Converting it to genuine WebP/AVIF typically cuts it to ~30–50 KB.
 
 Easiest path:
 1. Go to <https://squoosh.app/> (free, by Google).
@@ -115,7 +126,7 @@ Easiest path:
      width="400" height="500" loading="eager" fetchpriority="high">
    ```
 
-You can defer this if you're short on time; the site already serves WebP, which is the most important part.
+You can defer this if you're short on time, but it's the single biggest performance win left — and right now the "WebP" files are really PNGs, so the compression benefit hasn't actually been realized yet.
 
 ### 6. Set up Google Business Profile (~15 min, free)
 
