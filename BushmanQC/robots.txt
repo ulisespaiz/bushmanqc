@@ -1,4 +1,55 @@
+# robots.txt for bushmanqc.com
+# Traditional search engines and AI/LLM crawlers are all welcome to index the site.
+
 User-agent: *
 Allow: /
 
+# --- AI / LLM crawlers, explicitly welcomed so BushmanQC can be surfaced and
+#     cited in ChatGPT, Claude, Perplexity, Gemini, Copilot and other AI answers ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# A curated plain-text summary for LLMs is also published at /llms.txt
 Sitemap: https://bushmanqc.com/sitemap.xml
