@@ -84,30 +84,11 @@ Without analytics you cannot see what people do on the site after they arrive.
 ### 4. Create the missing image assets (~30 min)
 
 - ✅ **`BushmanQC/images/og-image.jpg` is done** — a 1200 × 630, ~98 KB branded share card (BushmanQC logo, "Virtual QMS, done simply." headline, FDA 21 CFR 820 / ISO 13485 / 21 CFR Part 11 chips, CTA, and Nellie's headshot) now ships in the repo and is referenced by the Open Graph / Twitter meta on every page. Test the preview at <https://www.opengraph.xyz/url/https%3A%2F%2Fbushmanqc.com%2F> after deploy.
-- ⬜ **`BushmanQC/images/apple-touch-icon.png`** — still needs creating (**180 × 180 px**, PNG). Simplest path: take the existing `favicon.png`, scale it up, drop it on a brand-purple (#6B5B95) square background. Until it exists, iOS home-screen icons fall back to the favicon.
+- ✅ **`BushmanQC/images/apple-touch-icon.png` is done** — a 180 × 180 brand-purple tile with a legible "BQC / VIRTUAL QMS" mark, referenced by the `apple-touch-icon` link on every page.
 
-### 5. Optimize `nellie.webp` (~10 min, optional but recommended)
+### 5. Optimize `nellie.webp` — ✅ done
 
-The current hero image (`images/nellie.webp`) is 292 KB. That's heavy for a 400×500 display size. Cutting it to ~50 KB will measurably improve PageSpeed scores (which Google uses as a ranking tiebreaker).
-
-Easiest path:
-1. Go to <https://squoosh.app/> (free, by Google).
-2. Drag `nellie.webp` in.
-3. On the right, choose **WebP**, set quality to **75**, set **Resize → 800×1000**.
-4. Download as `nellie-800.webp`.
-5. Repeat at 400×500 → `nellie-400.webp`.
-6. Drop both into `BushmanQC/images/`.
-7. Update the `<img src="images/nellie.webp">` tags in `index.html` and `about.html` to use `srcset`:
-   ```html
-   <img
-     src="images/nellie-400.webp"
-     srcset="images/nellie-400.webp 400w, images/nellie-800.webp 800w"
-     sizes="(max-width: 600px) 400px, 400px"
-     alt="Nellie Bushman, Quality Expert and Founder of BushmanQC"
-     width="400" height="500" loading="eager" fetchpriority="high">
-   ```
-
-You can defer this if you're short on time; the site already serves WebP, which is the most important part.
+The hero image was a 292 KB PNG mislabeled `.webp`. It's now re-encoded as a **true WebP at ~24 KB** (same 400×500 dimensions, no visible quality loss) — a ~92% reduction. Because the filename is unchanged, the hero, the `<link rel="preload">`, the Schema.org `image`, and the About-page reference all benefit automatically with no markup changes. This is the LCP image, so it directly improves the mobile PageSpeed score Google uses as a ranking tiebreaker.
 
 ### 6. Set up Google Business Profile (~15 min, free)
 
