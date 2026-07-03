@@ -83,16 +83,8 @@ Without analytics you cannot see what people do on the site after they arrive.
 
 ### 4. Create the missing image assets (~30 min)
 
-Two image files are referenced in the new meta tags but don't exist yet. Until they're created, social previews and iOS home-screen icons will fall back to defaults.
-
-| File | Size | Purpose |
-| --- | --- | --- |
-| `BushmanQC/images/og-image.jpg` | **1200 × 630 px**, JPG | Social share preview (Facebook, LinkedIn, iMessage, Slack, X). Should include the BushmanQC logo, a photo of Nellie, and the line *"Virtual QMS for Medical Devices"*. JPG is fine here; <200KB target. |
-| `BushmanQC/images/apple-touch-icon.png` | **180 × 180 px**, PNG | iOS / iPadOS home-screen icon. Simplest path: take the existing `favicon.png`, scale it up, drop it on a brand-purple (#6B5B95) square background. |
-
-Easiest way to make `og-image.jpg`: open Canva → "Custom size" → 1200×630 → use the brand purple (#6B5B95) background, drop in `logo.webp` and `nellie.webp`, add the text. Export as JPG. Drop it into `BushmanQC/images/`.
-
-Once those exist, test the social preview at <https://www.opengraph.xyz/url/https%3A%2F%2Fbushmanqc.com%2F> — you should see the 1200×630 image.
+- ✅ **`BushmanQC/images/og-image.jpg` is done** — a 1200 × 630, ~98 KB branded share card (BushmanQC logo, "Virtual QMS, done simply." headline, FDA 21 CFR 820 / ISO 13485 / 21 CFR Part 11 chips, CTA, and Nellie's headshot) now ships in the repo and is referenced by the Open Graph / Twitter meta on every page. Test the preview at <https://www.opengraph.xyz/url/https%3A%2F%2Fbushmanqc.com%2F> after deploy.
+- ⬜ **`BushmanQC/images/apple-touch-icon.png`** — still needs creating (**180 × 180 px**, PNG). Simplest path: take the existing `favicon.png`, scale it up, drop it on a brand-purple (#6B5B95) square background. Until it exists, iOS home-screen icons fall back to the favicon.
 
 ### 5. Optimize `nellie.webp` (~10 min, optional but recommended)
 

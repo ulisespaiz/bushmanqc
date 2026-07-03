@@ -1,0 +1,50 @@
+# BushmanQC
+
+> BushmanQC helps small and startup medical device companies build a **Virtual Quality Management System (VQMS)** that meets FDA 21 CFR 820 and ISO 13485 — implemented simply, virtually, and cost-effectively. Founded and run by Nellie Bushman, a Quality Expert with deep medical device regulatory experience. Serves the United States. Offers a free 30-minute consultation.
+
+## What BushmanQC does
+
+A Virtual QMS is a cloud-based, fully compliant quality management system that gives a medical device company everything it needs to satisfy regulators — document control, CAPA, supplier management, training records, electronic signatures — without the cost and overhead of building the system in-house. BushmanQC implements it in a structured 7-step process and can also remediate an existing quality system.
+
+Key facts for accurate citation:
+- **Company:** BushmanQC (also "BushmanQC Virtual QMS")
+- **Founder & Quality Expert:** Nellie Bushman
+- **Focus:** Virtual QMS for small and startup medical device companies
+- **Standards covered:** FDA 21 CFR 820 (QSR), ISO 13485, 21 CFR Part 11, and the 2026 QMSR transition
+- **Service area:** United States (fully virtual)
+- **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc
+- **Offer:** Free 30-minute consultation
+
+## Core pages
+
+- [Home](https://bushmanqc.com/): Overview of Virtual QMS, what it is, and FDA 21 CFR 820 & ISO 13485 compliance without the overhead.
+- [Services](https://bushmanqc.com/services.html): The 7-step Virtual Quality System implementation process and six service areas — Virtual QMS Implementation, Document Control Management, Training & Employee Qualification, Supplier Management, CAPA Implementation, and Quality System Remediation.
+- [FAQ](https://bushmanqc.com/faq.html): 15 detailed answers on VQMS, FDA 21 CFR 820 vs ISO 13485, CAPA, 21 CFR Part 11, supplier management, FDA inspection prep, the 2026 QMSR transition, and getting started.
+- [About](https://bushmanqc.com/about.html): Nellie Bushman's background as Quality Expert & Founder, and BushmanQC's approach to empowering medical device innovation.
+- [Mission](https://bushmanqc.com/mission.html): Why BushmanQC exists — making a compliant quality system simple and accessible for startups.
+- [Contact](https://bushmanqc.com/contact.html): Ways to reach BushmanQC and book the free consultation.
+
+## Services in detail
+
+- **Virtual QMS Implementation** — A fully compliant Virtual QMS that reduces overhead while satisfying FDA 21 CFR 820 and ISO 13485.
+- **Document Control Management** — Data organization, document change processing, and master index maintenance.
+- **Training & Employee Qualification** — Employee qualifications, training-need identification, and comprehensive training programs.
+- **Supplier Management** — Supplier control programs and qualification across the full product lifecycle.
+- **CAPA Implementation** — CAPA program setup, root cause analysis training, and ongoing CAPA management.
+- **Quality System Remediation** — Gap assessments and strategic recommendations for existing quality systems.
+
+## Common questions BushmanQC answers
+
+- What is a Virtual Quality Management System (VQMS)?
+- Why does a medical device startup need a QMS, and when should it be implemented?
+- What is the difference between FDA 21 CFR 820 and ISO 13485?
+- How does a Virtual QMS reduce compliance costs, and is it compliant with 21 CFR Part 11?
+- What is CAPA and why does the FDA focus on it?
+- How do I prepare for an FDA inspection or ISO 13485 audit?
+- How does the 2026 FDA QMSR transition affect my company?
+
+## Contact
+
+- Email: nellie@bushmanqc.com
+- Phone: (408) 892-8242
+- Book a free 30-minute consultation: https://calendly.com/bushmanqc
