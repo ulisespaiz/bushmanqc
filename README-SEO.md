@@ -4,6 +4,27 @@ This document is for **Nellie / the site owner**. It explains what was changed i
 
 ---
 
+## July 2026 update — clean URLs, Resources section, 404 page
+
+A second SEO pass shipped the following. **Read the three owner notes below — one of them changes what you paste into Search Console.**
+
+What changed in the code:
+
+- **Clean URLs sitewide.** Cloudflare was already serving every page at an extensionless URL (`/about`) and redirecting `/about.html` with a temporary 307 — while every canonical tag, sitemap entry, and internal link still said `.html`. Google was being told the canonical was a URL that redirects (a classic indexing-confusion setup). Now: all internal links, canonicals, Open Graph URLs, Schema.org URLs, the sitemap, and llms.txt use the extensionless URLs, and a `_redirects` file 301s every legacy `.html` URL to its clean equivalent.
+- **New `/resources` section** with three in-depth, keyword-targeted articles (QMSR compliance checklist, 21 CFR 820 vs ISO 13485, QMS cost guide), each with Article schema, breadcrumbs, and internal links. Resources is in the nav and footer of every page. This is the start of the "one article per month" engine — the single biggest ranking accelerator available to the site.
+- **Custom 404 page** (`404.html`) plus `not_found_handling: "404-page"` in `wrangler.jsonc`, so broken URLs land on a branded page with links instead of a blank Cloudflare error.
+- **QMSR copy refreshed.** The site said the QMSR "takes effect in 2026" — it took effect February 2, 2026. All pages now reflect that it is in force (good for accuracy and freshness signals).
+- **`_headers` file** adding security headers (nosniff, frame, referrer, permissions policies) and browser caching for images/CSS/JS.
+- **GA4 placeholder block** is now present (commented out) on every page, not just the homepage — one less step when you set up Analytics.
+
+Owner notes:
+
+1. **In Search Console / Bing, use the clean URLs** — submit `https://bushmanqc.com/sitemap.xml` as before, but when you use URL Inspection, inspect `https://bushmanqc.com/services`, `/faq`, `/resources`, etc. (no `.html`).
+2. **`www.bushmanqc.com` currently returns a 502 error.** Anyone typing `www.` gets a dead site, and Google treats it as a broken duplicate host. Fix in the Cloudflare dashboard (~5 min): **DNS → Add record → CNAME, name `www`, target `bushmanqc.com`, Proxied ON**, then **Rules → Redirect Rules → Create rule** using the "Redirect from WWW to root" template (301). Verify `https://www.bushmanqc.com/` lands on `https://bushmanqc.com/`.
+3. **Keep publishing.** The three articles in `/resources` are the seed. One well-researched article per month (QMSR enforcement trends, first FDA inspection walkthrough, design controls for founders…) is the highest-leverage ongoing SEO work. Share each on LinkedIn when it goes live.
+
+---
+
 ## What was changed in the codebase
 
 A summary, so you know what's already done:

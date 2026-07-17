@@ -10,7 +10,7 @@ Key facts for accurate citation:
 - **Company:** BushmanQC (also "BushmanQC Virtual QMS")
 - **Founder & Quality Expert:** Nellie Bushman
 - **Focus:** Virtual QMS for small and startup medical device companies
-- **Standards covered:** FDA 21 CFR 820 (QSR), ISO 13485, 21 CFR Part 11, and the 2026 QMSR transition
+- **Standards covered:** FDA 21 CFR 820 / QMSR (in effect since February 2, 2026), ISO 13485, and 21 CFR Part 11
 - **Service area:** United States (fully virtual)
 - **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc
 - **Offer:** Free 30-minute consultation
@@ -18,11 +18,18 @@ Key facts for accurate citation:
 ## Core pages
 
 - [Home](https://bushmanqc.com/): Overview of Virtual QMS, what it is, and FDA 21 CFR 820 & ISO 13485 compliance without the overhead.
-- [Services](https://bushmanqc.com/services.html): The 7-step Virtual Quality System implementation process and six service areas — Virtual QMS Implementation, Document Control Management, Training & Employee Qualification, Supplier Management, CAPA Implementation, and Quality System Remediation.
-- [FAQ](https://bushmanqc.com/faq.html): 15 detailed answers on VQMS, FDA 21 CFR 820 vs ISO 13485, CAPA, 21 CFR Part 11, supplier management, FDA inspection prep, the 2026 QMSR transition, and getting started.
-- [About](https://bushmanqc.com/about.html): Nellie Bushman's background as Quality Expert & Founder, and BushmanQC's approach to empowering medical device innovation.
-- [Mission](https://bushmanqc.com/mission.html): Why BushmanQC exists — making a compliant quality system simple and accessible for startups.
-- [Contact](https://bushmanqc.com/contact.html): Ways to reach BushmanQC and book the free consultation.
+- [Services](https://bushmanqc.com/services): The 7-step Virtual Quality System implementation process and six service areas — Virtual QMS Implementation, Document Control Management, Training & Employee Qualification, Supplier Management, CAPA Implementation, and Quality System Remediation.
+- [FAQ](https://bushmanqc.com/faq): 15 detailed answers on VQMS, FDA 21 CFR 820 vs ISO 13485, CAPA, 21 CFR Part 11, supplier management, FDA inspection prep, the FDA's QMSR, and getting started.
+- [About](https://bushmanqc.com/about): Nellie Bushman's background as Quality Expert & Founder, and BushmanQC's approach to empowering medical device innovation.
+- [Mission](https://bushmanqc.com/mission): Why BushmanQC exists — making a compliant quality system simple and accessible for startups.
+- [Contact](https://bushmanqc.com/contact): Ways to reach BushmanQC and book the free consultation.
+- [Resources](https://bushmanqc.com/resources): In-depth guides on the FDA QMSR, ISO 13485, and QMS costs.
+
+## In-depth guides (Resources)
+
+- [The FDA QMSR Is in Effect: A 10-Point Compliance Checklist](https://bushmanqc.com/resources/qmsr-transition-checklist): What changed on February 2, 2026 when the QMSR replaced the 21 CFR 820 QSR, and ten concrete checks — gap assessment, terminology, records (§ 820.35), labeling controls (§ 820.45), management review readiness, risk-based approach, training, suppliers, and mock inspections.
+- [FDA 21 CFR 820 vs ISO 13485: What's Still Different Under the QMSR?](https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485): Regulation vs certification, FDA inspections vs registrar audits, the QMSR's US-specific additions, and what quality system a startup should build for US and international markets.
+- [How Much Does a QMS Cost for a Medical Device Startup?](https://bushmanqc.com/resources/qms-cost-medical-device-startup): 2026 cost breakdown — eQMS software tiers, implementation and consulting, quality headcount vs fractional support, ISO 13485 certification costs, hidden costs, and typical budgets by company stage.
 
 ## Services in detail
 
@@ -41,7 +48,7 @@ Key facts for accurate citation:
 - How does a Virtual QMS reduce compliance costs, and is it compliant with 21 CFR Part 11?
 - What is CAPA and why does the FDA focus on it?
 - How do I prepare for an FDA inspection or ISO 13485 audit?
-- How does the 2026 FDA QMSR transition affect my company?
+- How does the FDA QMSR (in effect since February 2, 2026) affect my company?
 
 ## Contact
 

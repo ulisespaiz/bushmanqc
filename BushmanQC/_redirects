@@ -1,0 +1,14 @@
+# Permanent redirects from legacy .html URLs to the canonical extensionless URLs.
+# Cloudflare's built-in html_handling would only issue temporary 307s; these 301s
+# consolidate link equity on the canonical URLs.
+/index.html / 301
+/about.html /about 301
+/mission.html /mission 301
+/services.html /services 301
+/faq.html /faq 301
+/contact.html /contact 301
+/terms.html /terms 301
+/resources.html /resources 301
+/resources/qmsr-transition-checklist.html /resources/qmsr-transition-checklist 301
+/resources/fda-21-cfr-820-vs-iso-13485.html /resources/fda-21-cfr-820-vs-iso-13485 301
+/resources/qms-cost-medical-device-startup.html /resources/qms-cost-medical-device-startup 301
