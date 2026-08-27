@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://bushmanqc.com/resources</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -32,6 +32,24 @@
   </url>
   <url>
     <loc>https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bushmanqc.com/resources/design-controls-for-founders</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bushmanqc.com/resources/first-fda-inspection-medical-device-startup</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bushmanqc.com/resources/21-cfr-part-11-electronic-signatures-startup</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>

@@ -12,7 +12,7 @@
 #   * Every rule here is STATIC (no * splat, no :placeholder). If a dynamic rule is
 #     ever added it MUST go at the bottom: "Static redirects should appear before
 #     dynamic redirects."
-#   * Limit is 2,000 static rules; this file uses 27.
+#   * Limit is 2,000 static rules; this file uses 33.
 
 # --- 1. Legacy .html URLs -> canonical extensionless URLs -------------------
 # Cloudflare's built-in html_handling would only issue temporary 307s; these 301s
@@ -28,6 +28,9 @@
 /resources/qmsr-transition-checklist.html /resources/qmsr-transition-checklist 301
 /resources/fda-21-cfr-820-vs-iso-13485.html /resources/fda-21-cfr-820-vs-iso-13485 301
 /resources/qms-cost-medical-device-startup.html /resources/qms-cost-medical-device-startup 301
+/resources/first-fda-inspection-medical-device-startup.html /resources/first-fda-inspection-medical-device-startup 301
+/resources/21-cfr-part-11-electronic-signatures-startup.html /resources/21-cfr-part-11-electronic-signatures-startup 301
+/resources/design-controls-for-founders.html /resources/design-controls-for-founders 301
 
 # --- 2. Trailing-slash variants -> canonical no-slash URLs ------------------
 # Without these, auto-trailing-slash answers /about/ with a temporary 307. Every
@@ -43,6 +46,9 @@
 /resources/qmsr-transition-checklist/ /resources/qmsr-transition-checklist 301
 /resources/fda-21-cfr-820-vs-iso-13485/ /resources/fda-21-cfr-820-vs-iso-13485 301
 /resources/qms-cost-medical-device-startup/ /resources/qms-cost-medical-device-startup 301
+/resources/first-fda-inspection-medical-device-startup/ /resources/first-fda-inspection-medical-device-startup 301
+/resources/21-cfr-part-11-electronic-signatures-startup/ /resources/21-cfr-part-11-electronic-signatures-startup 301
+/resources/design-controls-for-founders/ /resources/design-controls-for-founders 301
 
 # --- 3. Legacy pre-redesign URLs still in Google's index --------------------
 # Both the slashed and slash-less forms are mapped: the slash-less form matches no

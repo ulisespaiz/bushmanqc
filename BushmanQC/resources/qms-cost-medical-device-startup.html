@@ -7,9 +7,11 @@
   <meta name="theme-color" content="#6B5B95">
   <title>QMS Cost for Medical Device Startups (2026 Guide) | BushmanQC</title>
   <meta name="description" content="A realistic 2026 breakdown of medical device QMS costs — eQMS software, consulting, headcount, and ISO 13485 certification — plus the hidden costs of getting it wrong, and how a Virtual QMS changes the math for startups.">
+  <meta name="author" content="Nellie Bushman">
   <link rel="icon" href="/images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="canonical" href="https://bushmanqc.com/resources/qms-cost-medical-device-startup">
+  <link rel="alternate" type="application/rss+xml" title="BushmanQC Resources" href="/feed.xml">
 
   <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
   <meta name="msvalidate.01" content="REPLACE_WITH_BING_TOKEN">
@@ -25,8 +27,9 @@
   <meta property="og:site_name" content="BushmanQC">
   <meta property="og:locale" content="en_US">
   <meta property="article:published_time" content="2026-07-17">
-  <meta property="article:modified_time" content="2026-07-17">
+  <meta property="article:modified_time" content="2026-08-27">
   <meta property="article:author" content="https://bushmanqc.com/about">
+  <meta property="article:section" content="Practical How-Tos">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="How Much Does a QMS Cost for a Medical Device Startup?">
@@ -50,16 +53,33 @@
         "description": "A realistic 2026 breakdown of medical device QMS costs — eQMS software, consulting, headcount, and ISO 13485 certification — plus the hidden costs of getting it wrong, and how a Virtual QMS changes the math for startups.",
         "image": "https://bushmanqc.com/images/og-image.jpg",
         "datePublished": "2026-07-17",
-        "dateModified": "2026-07-17",
+        "dateModified": "2026-08-27",
         "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "articleSection": "Practical How-Tos",
+        "keywords": "medical device QMS cost, eQMS pricing, ISO 13485 certification cost, quality consultant rates, startup QMS budget",
         "author": {
           "@type": "Person",
           "@id": "https://bushmanqc.com/#nellie",
           "name": "Nellie Bushman",
           "jobTitle": "Quality Expert & Founder",
           "url": "https://bushmanqc.com/about",
+          "image": "https://bushmanqc.com/images/nellie.webp",
+          "email": "nellie@bushmanqc.com",
+          "worksFor": { "@id": "https://bushmanqc.com/#organization" },
           "sameAs": [
             "https://www.linkedin.com/in/nellie-bushman-1986784"
+          ],
+          "knowsAbout": [
+            "Virtual Quality Management Systems",
+            "FDA 21 CFR 820",
+            "ISO 13485",
+            "21 CFR Part 11",
+            "CAPA",
+            "Supplier Management",
+            "Medical Device Quality Systems",
+            "FDA Audit Preparation",
+            "QMSR Transition"
           ],
           "description": "Quality expert and founder of BushmanQC with 25+ years of medical device quality management experience. Focused on Virtual QMS implementation for small and startup medical device companies."
         },
@@ -67,6 +87,7 @@
           "@type": "Organization",
           "@id": "https://bushmanqc.com/#organization",
           "name": "BushmanQC",
+          "url": "https://bushmanqc.com/",
           "logo": {
             "@type": "ImageObject",
             "url": "https://bushmanqc.com/images/logo.webp"
@@ -201,7 +222,8 @@
         <article class="article-body fade-in">
           <div class="article-meta">
             <span>By <strong><a href="/about">Nellie Bushman</a></strong>, Quality Expert &amp; Founder</span>
-            <span>Published <strong>July 17, 2026</strong></span>
+            <span>Published <strong><time datetime="2026-07-17">July 17, 2026</time></strong></span>
+            <span class="article-reviewed">Last reviewed <strong><time datetime="2026-08-27">August 27, 2026</time></strong></span>
             <span>~8 min read</span>
           </div>
 
@@ -209,12 +231,12 @@
             <p><strong>Short answer:</strong> for a small medical device startup in 2026, a credible first-year QMS budget typically lands between <strong>$15,000 and $150,000+</strong>, depending on how you split the work between software, consultants, and employees. The biggest variable isn't the software — it's the people, and how much system you buy before you need it.</p>
           </div>
 
-          <p>"What will a QMS cost us?" is usually the second question a founder asks, right after "do we really need one?" (Yes — before design work begins, not after. The <a href="/resources/qmsr-transition-checklist">FDA's QMSR</a> applies from your first finished device, and design controls apply to the development you're doing right now.) The frustrating part is that most answers are either a vendor's pricing page or a consultant's "it depends." Here is the fuller picture, broken into the four places the money actually goes.</p>
+          <p>"What will a QMS cost us?" is usually the second question a founder asks, right after "do we really need one?" (Yes — before design work begins, not after. The <a href="/resources/qmsr-transition-checklist">FDA's QMSR</a> applies from your <a href="https://www.ecfr.gov/current/title-21/section-820.1" target="_blank" rel="noopener">first finished device</a><sup class="cite"><a href="#src-1">1</a></sup>, and <a href="https://www.ecfr.gov/current/title-21/section-820.10" target="_blank" rel="noopener">design controls apply to the development you're doing right now</a><sup class="cite"><a href="#src-2">2</a></sup>.) The frustrating part is that most answers are either a vendor's pricing page or a consultant's "it depends." Here is the fuller picture, broken into the four places the money actually goes.</p>
 
           <h2>1. Software: $0 to $50,000+ per year</h2>
           <p>Three realistic tiers:</p>
           <ul>
-            <li><strong>General-purpose cloud tools (roughly $0–$3,000/yr).</strong> A controlled document structure built on cloud storage you already pay for, plus a compliant e-signature layer. Done properly — with real document control procedures and <a href="/faq">21 CFR Part 11-compliant signatures</a> — this is a legitimate, inspectable QMS for an early-stage company. Done casually, it's a pile of Google Docs that will fail its first audit. The difference is the implementation, not the tooling.</li>
+            <li><strong>General-purpose cloud tools (roughly $0–$3,000/yr).</strong> A controlled document structure built on cloud storage you already pay for, plus a compliant e-signature layer. Done properly — with real document control procedures and <a href="https://www.ecfr.gov/current/title-21/part-11" target="_blank" rel="noopener">21 CFR Part 11</a><sup class="cite"><a href="#src-3">3</a></sup>-compliant <a href="/faq">signatures</a> — this is a legitimate, inspectable QMS for an early-stage company. Done casually, it's a pile of Google Docs that will fail its first audit. The difference is the implementation, not the tooling.</li>
             <li><strong>Startup-tier eQMS platforms (commonly ~$5,000–$25,000/yr).</strong> Purpose-built systems with document control, training, and CAPA workflows out of the box. Worth it once your team and record volume outgrow the lightweight approach — typically around your first submission or first hires beyond the founding team.</li>
             <li><strong>Enterprise eQMS (commonly $50,000+/yr).</strong> Powerful, validated, and almost always premature for a pre-revenue startup. Buying enterprise software early doesn't make you more compliant; it makes you slower and poorer. You can migrate later — quality records are portable if your document control is disciplined.</li>
           </ul>
@@ -223,7 +245,7 @@
           <p>Whoever builds the system — writes the Quality Manual and procedures, configures the tools, trains the team, and makes it match how you actually work — represents the second cost block. Typical shapes in 2026:</p>
           <ul>
             <li><strong>Hourly consulting</strong> commonly runs <strong>$150–$350/hr</strong> for experienced medical device quality consultants.</li>
-            <li><strong>A full startup QMS implementation</strong> — procedures, templates, training, and a working system aligned to ISO 13485 and the QMSR — is typically quoted anywhere from <strong>$10,000 to $75,000+</strong> depending on device risk class, company size, and how much the consultant customizes versus templates.</li>
+            <li><strong>A full startup QMS implementation</strong> — procedures, templates, training, and a working system <a href="https://www.ecfr.gov/current/title-21/section-820.7" target="_blank" rel="noopener">aligned to ISO 13485 and the QMSR</a><sup class="cite"><a href="#src-4">4</a></sup> — is typically quoted anywhere from <strong>$10,000 to $75,000+</strong> depending on device risk class, company size, and how much the consultant customizes versus templates.</li>
             <li><strong>Template kits</strong> ($1,000–$5,000) look cheap but transfer all of the tailoring work to you. An un-tailored template set that doesn't match your actual processes is one of the most common findings in first audits.</li>
           </ul>
           <p>BushmanQC's model is a fixed <a href="/services">seven-step Virtual QMS implementation</a>, scoped to what a startup needs now — with a system designed to scale instead of a system designed to impress.</p>
@@ -237,7 +259,7 @@
           <p>This is the argument for right-sizing everything above: every unnecessary procedure you adopt is a recurring labor cost, forever.</p>
 
           <h2>4. Certification and audits: only when you need them</h2>
-          <p>QMSR compliance itself has no application fee — the FDA doesn't charge for inspections. <strong>ISO 13485 certification</strong>, if and when a market or partner requires it, typically costs on the order of <strong>$10,000–$30,000 over a three-year certification cycle</strong> (initial audit plus annual surveillance) for a small company, varying with headcount and scope. As covered in <a href="/resources/fda-21-cfr-820-vs-iso-13485">21 CFR 820 vs ISO 13485</a>, treat certification as a triggered business decision, not a default startup expense.</p>
+          <p>There is no application fee for <a href="https://www.ecfr.gov/current/title-21/part-820" target="_blank" rel="noopener">QMSR compliance</a><sup class="cite"><a href="#src-5">5</a></sup>, and the FDA does not invoice you for a routine inspection — but every registered device establishment does pay an <a href="https://www.fda.gov/industry/fda-user-fee-programs/medical-device-user-fee-amendments-mdufa-fees" target="_blank" rel="noopener">annual establishment registration fee</a><sup class="cite"><a href="#src-6">6</a></sup> under MDUFA, and that one is not optional. Certain small businesses can apply for a hardship waiver of the annual fee (not the initial registration) through the FDA's <a href="https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/reduced-or-waived-medical-device-user-fees-small-business-determination-sbd-program" target="_blank" rel="noopener">Small Business Determination program</a><sup class="cite"><a href="#src-7">7</a></sup>. <a href="https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions" target="_blank" rel="noopener"><strong>ISO 13485 certification</strong>, if and when a market or partner requires it</a><sup class="cite"><a href="#src-8">8</a></sup>, typically costs on the order of <strong>$10,000–$30,000 over a three-year certification cycle</strong> (initial audit plus annual surveillance) for a small company, varying with headcount and scope. As covered in <a href="/resources/fda-21-cfr-820-vs-iso-13485">21 CFR 820 vs ISO 13485</a>, treat certification as a triggered business decision, not a default startup expense.</p>
 
           <h2>What it looks like by stage</h2>
           <div class="article-table-wrap">
@@ -256,7 +278,7 @@
 
           <h2>The hidden costs nobody invoices you for</h2>
           <ul>
-            <li><strong>Remediation after a failed audit or FDA 483.</strong> Rebuilding a broken quality system under regulatory pressure routinely costs several times what building it correctly would have — plus the commercial damage of a Warning Letter sitting in public view.</li>
+            <li><strong>Remediation after a failed audit or <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions" target="_blank" rel="noopener">FDA 483</a></strong><sup class="cite"><a href="#src-9">9</a></sup>. Rebuilding a broken quality system under regulatory pressure routinely costs several times what building it correctly would have — plus the commercial damage of a <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters" target="_blank" rel="noopener">Warning Letter</a><sup class="cite"><a href="#src-10">10</a></sup> sitting in public view.</li>
             <li><strong>Delayed submissions.</strong> Missing design control records can't be backfilled honestly. If your DHF-equivalent is incomplete at submission time, the delay is measured in months of burn rate — usually the most expensive line on this whole page.</li>
             <li><strong>Over-built systems.</strong> A QMS with fifty procedures nobody follows isn't conservative, it's a standing audit finding. Every procedure is a promise to an inspector; don't make promises you won't keep.</li>
             <li><strong>Physical infrastructure.</strong> Paper systems need printing, wet signatures, storage, and an office to live in. A <a href="/">Virtual QMS</a> eliminates that entire category.</li>
@@ -276,6 +298,48 @@
             <p>Bring your device, stage, and timeline to a free 30-minute consultation. You'll leave with a realistic scope and budget — whether or not you work with us.</p>
             <a href="https://calendly.com/bushmanqc?utm_source=website&utm_medium=resources-qms-cost-medical-device-startup&utm_content=article-cta" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Get a Free QMS Scoping Call</a>
           </div>
+
+          <aside class="author-bio" aria-labelledby="author-bio-name">
+            <div class="author-bio-photo">
+              <img src="/images/nellie.webp" alt="Nellie Bushman, Quality Expert and Founder of BushmanQC" width="96" height="96" loading="lazy" decoding="async">
+            </div>
+            <div class="author-bio-body">
+              <p class="author-bio-eyebrow">About the author</p>
+              <p class="author-bio-name" id="author-bio-name"><a href="/about">Nellie Bushman</a></p>
+              <p class="author-bio-role">Quality Expert &amp; Founder, BushmanQC</p>
+              <p class="author-bio-text">Nellie Bushman is the Quality Expert &amp; Founder of BushmanQC, with 25+ years of medical device quality management experience. She specializes in helping small and startup medical device companies with their Quality System implementation needs, providing expert guidance and virtual solutions that reduce costs while maintaining full compliance.</p>
+              <ul class="author-bio-tags">
+                <li class="author-bio-tag">Virtual QMS</li>
+                <li class="author-bio-tag">FDA 21 CFR 820</li>
+                <li class="author-bio-tag">ISO 13485</li>
+                <li class="author-bio-tag">21 CFR Part 11</li>
+                <li class="author-bio-tag">CAPA</li>
+                <li class="author-bio-tag">FDA Audit Preparation</li>
+              </ul>
+              <p class="author-bio-links">
+                <a href="/about">More about Nellie</a>
+                <a href="mailto:nellie@bushmanqc.com">nellie@bushmanqc.com</a>
+                <a href="https://www.linkedin.com/in/nellie-bushman-1986784" target="_blank" rel="noopener">LinkedIn</a>
+              </p>
+            </div>
+          </aside>
+
+          <section class="article-sources" aria-labelledby="sources-heading">
+            <h2 id="sources-heading">Sources</h2>
+            <ol>
+              <li id="src-1">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.1" target="_blank" rel="noopener">21 CFR 820.1 — Scope</a>. Accessed August 27, 2026.</li>
+              <li id="src-2">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.10" target="_blank" rel="noopener">21 CFR 820.10 — Requirements for a quality management system</a>. Accessed August 27, 2026.</li>
+              <li id="src-3">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-11" target="_blank" rel="noopener">21 CFR Part 11 — Electronic Records; Electronic Signatures</a>. Accessed August 27, 2026.</li>
+              <li id="src-4">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.7" target="_blank" rel="noopener">21 CFR 820.7 — Incorporation by reference</a>. Accessed August 27, 2026.</li>
+              <li id="src-5">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-820" target="_blank" rel="noopener">21 CFR Part 820 — Quality Management System Regulation</a>. Accessed August 27, 2026.</li>
+              <li id="src-6">U.S. Food and Drug Administration. <a href="https://www.fda.gov/industry/fda-user-fee-programs/medical-device-user-fee-amendments-mdufa-fees" target="_blank" rel="noopener">Medical Device User Fee Amendments (MDUFA) Fees</a>. Accessed August 27, 2026.</li>
+              <li id="src-7">U.S. Food and Drug Administration. <a href="https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/reduced-or-waived-medical-device-user-fees-small-business-determination-sbd-program" target="_blank" rel="noopener">Reduced or Waived Medical Device User Fees: Small Business Determination (SBD) Program</a>. Accessed August 27, 2026.</li>
+              <li id="src-8">U.S. Food and Drug Administration. <a href="https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions" target="_blank" rel="noopener">Quality Management System Regulation: Frequently Asked Questions</a>. Accessed August 27, 2026.</li>
+              <li id="src-9">U.S. Food and Drug Administration. <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions" target="_blank" rel="noopener">FDA Form 483 Frequently Asked Questions</a>. Accessed August 27, 2026.</li>
+              <li id="src-10">U.S. Food and Drug Administration. <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters" target="_blank" rel="noopener">Warning Letters</a>. Accessed August 27, 2026.</li>
+            </ol>
+            <p class="article-sources-note">All sources are US federal primary sources (eCFR, the Federal Register, FDA.gov, or the US Code). Regulatory text changes — check the linked source for the current version before relying on it.</p>
+          </section>
 
           <p style="margin-top:32px;"><em>Related reading: <a href="/resources/qmsr-transition-checklist">The FDA QMSR 10-point compliance checklist</a> &middot; <a href="/resources/fda-21-cfr-820-vs-iso-13485">21 CFR 820 vs ISO 13485 under the QMSR</a> &middot; <a href="/faq">Virtual QMS FAQ</a></em></p>
         </article>

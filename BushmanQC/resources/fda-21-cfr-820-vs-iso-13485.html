@@ -7,9 +7,11 @@
   <meta name="theme-color" content="#6B5B95">
   <title>FDA 21 CFR 820 vs ISO 13485 After the QMSR | BushmanQC</title>
   <meta name="description" content="Since February 2, 2026, FDA's 21 CFR 820 incorporates ISO 13485:2016 by reference — but the two still aren't interchangeable. Regulation vs certification, FDA inspections vs registrar audits, and the US-specific additions, explained for medical device startups.">
+  <meta name="author" content="Nellie Bushman">
   <link rel="icon" href="/images/favicon.png" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="canonical" href="https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485">
+  <link rel="alternate" type="application/rss+xml" title="BushmanQC Resources" href="/feed.xml">
 
   <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
   <meta name="msvalidate.01" content="REPLACE_WITH_BING_TOKEN">
@@ -25,8 +27,9 @@
   <meta property="og:site_name" content="BushmanQC">
   <meta property="og:locale" content="en_US">
   <meta property="article:published_time" content="2026-07-17">
-  <meta property="article:modified_time" content="2026-07-17">
+  <meta property="article:modified_time" content="2026-08-27">
   <meta property="article:author" content="https://bushmanqc.com/about">
+  <meta property="article:section" content="Regulatory Guides">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FDA 21 CFR 820 vs ISO 13485: What's Still Different?">
@@ -50,16 +53,33 @@
         "description": "Since February 2, 2026, FDA's 21 CFR 820 incorporates ISO 13485:2016 by reference — but the two still aren't interchangeable. Regulation vs certification, FDA inspections vs registrar audits, and the US-specific additions, explained for medical device startups.",
         "image": "https://bushmanqc.com/images/og-image.jpg",
         "datePublished": "2026-07-17",
-        "dateModified": "2026-07-17",
+        "dateModified": "2026-08-27",
         "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "articleSection": "Regulatory Guides",
+        "keywords": "21 CFR 820, ISO 13485, QMSR, FDA inspection, registrar audit, MDSAP, medical device regulation",
         "author": {
           "@type": "Person",
           "@id": "https://bushmanqc.com/#nellie",
           "name": "Nellie Bushman",
           "jobTitle": "Quality Expert & Founder",
           "url": "https://bushmanqc.com/about",
+          "image": "https://bushmanqc.com/images/nellie.webp",
+          "email": "nellie@bushmanqc.com",
+          "worksFor": { "@id": "https://bushmanqc.com/#organization" },
           "sameAs": [
             "https://www.linkedin.com/in/nellie-bushman-1986784"
+          ],
+          "knowsAbout": [
+            "Virtual Quality Management Systems",
+            "FDA 21 CFR 820",
+            "ISO 13485",
+            "21 CFR Part 11",
+            "CAPA",
+            "Supplier Management",
+            "Medical Device Quality Systems",
+            "FDA Audit Preparation",
+            "QMSR Transition"
           ],
           "description": "Quality expert and founder of BushmanQC with 25+ years of medical device quality management experience. Focused on Virtual QMS implementation for small and startup medical device companies."
         },
@@ -67,6 +87,7 @@
           "@type": "Organization",
           "@id": "https://bushmanqc.com/#organization",
           "name": "BushmanQC",
+          "url": "https://bushmanqc.com/",
           "logo": {
             "@type": "ImageObject",
             "url": "https://bushmanqc.com/images/logo.webp"
@@ -201,13 +222,18 @@
         <article class="article-body fade-in">
           <div class="article-meta">
             <span>By <strong><a href="/about">Nellie Bushman</a></strong>, Quality Expert &amp; Founder</span>
-            <span>Published <strong>July 17, 2026</strong></span>
+            <span>Published <strong><time datetime="2026-07-17">July 17, 2026</time></strong></span>
+            <span class="article-reviewed">Last reviewed <strong><time datetime="2026-08-27">August 27, 2026</time></strong></span>
             <span>~7 min read</span>
           </div>
 
-          <p>For nearly thirty years, medical device companies selling in the US and abroad lived with two overlapping-but-different rulebooks: the FDA's <strong>Quality System Regulation (QSR)</strong> at 21 CFR Part 820, and <strong>ISO 13485</strong>, the international quality management standard used by regulators across Europe, Canada, Australia, Japan, and beyond. The two agreed on philosophy and diverged on details — enough that companies maintained crosswalk matrices, duplicate procedures, and two vocabularies for the same work.</p>
+          <div class="article-callout">
+            <p><strong>Short answer:</strong> Under the QMSR, the <em>requirements</em> are now the same — 21 CFR 820 incorporates ISO 13485:2016 by reference. What still differs is everything around them: 21 CFR 820 is <strong>law</strong> that applies automatically and is enforced by FDA inspection, while ISO 13485 is a <strong>voluntary standard</strong> you get certified against by a registrar. FDA has confirmed it will neither require nor issue ISO 13485 certificates, and holding one does not exempt you from an FDA inspection.</p>
+          </div>
 
-          <p>That era formally ended on <strong>February 2, 2026</strong>, when the FDA's <strong>Quality Management System Regulation (QMSR)</strong> took effect. The QMSR keeps the "Part 820" address in the CFR but replaces the old QSR text, incorporating <strong>ISO 13485:2016 by reference</strong> and adding a focused set of US-specific requirements on top. So is the comparison finally moot? Mostly — but not entirely, and the differences that remain are exactly the ones that trip up startups planning their regulatory strategy.</p>
+          <p>For nearly thirty years, medical device companies selling in the US and abroad lived with two overlapping-but-different rulebooks: the FDA's <strong>Quality System Regulation (QSR)</strong> at <a href="https://www.ecfr.gov/current/title-21/part-820" target="_blank" rel="noopener">21 CFR Part 820</a><sup class="cite"><a href="#src-1">1</a></sup>, and <strong>ISO 13485</strong>, the international quality management standard used by regulators across Europe, Canada, Australia, Japan, and beyond. The two agreed on philosophy and diverged on details — enough that companies maintained crosswalk matrices, duplicate procedures, and two vocabularies for the same work.</p>
+
+          <p>That era formally ended on <strong>February 2, 2026</strong>, when the FDA's <a href="https://www.federalregister.gov/documents/2024/02/02/2024-01709/medical-devices-quality-system-regulation-amendments" target="_blank" rel="noopener"><strong>Quality Management System Regulation (QMSR)</strong></a><sup class="cite"><a href="#src-2">2</a></sup> took effect. The QMSR keeps the "Part 820" address in the CFR but replaces the old QSR text, incorporating <a href="https://www.ecfr.gov/current/title-21/section-820.7" target="_blank" rel="noopener"><strong>ISO 13485:2016 by reference</strong></a><sup class="cite"><a href="#src-3">3</a></sup> and adding a focused set of US-specific requirements on top. So is the comparison finally moot? Mostly — but not entirely, and the differences that remain are exactly the ones that trip up startups planning their regulatory strategy.</p>
 
           <h2>What's now the same</h2>
           <p>Under the QMSR, the substance of FDA's quality system expectations <em>is</em> ISO 13485:2016. Design controls, document control, CAPA, purchasing and supplier controls, management responsibility, process validation, production controls, the risk-based approach — one well-built quality system now satisfies the requirements text of both frameworks. For a startup, this is genuinely good news: you no longer design a QMS "for the FDA" and then bolt on ISO clauses for other markets. You build one system to ISO 13485's structure, add the US-specific layer, and you're speaking every major regulator's language.</p>
@@ -215,18 +241,18 @@
           <h2>What's still different</h2>
 
           <h3>1. A regulation is not a certificate</h3>
-          <p>This is the difference founders most often miss. <strong>21 CFR 820 (the QMSR) is law</strong> — it applies automatically to anyone placing finished devices on the US market, and no one issues you a certificate for complying. <strong>ISO 13485 is a voluntary standard</strong> — you claim conformity by hiring an accredited certification body (a "registrar") to audit you and issue a certificate, which you then renew through surveillance audits. Complying with the QMSR does <em>not</em> make you "ISO 13485 certified," even though the requirements are now nearly the same. If a customer, distributor, or foreign regulator asks for your ISO 13485 certificate, only a registrar audit gets you one.</p>
+          <p>This is the difference founders most often miss. <strong>21 CFR 820 (the QMSR) is law</strong> — it applies automatically to anyone placing finished devices on the US market, and no one issues you a certificate for complying. <strong>ISO 13485 is a voluntary standard</strong> — you claim conformity by hiring an accredited certification body (a "registrar") to audit you and issue a certificate, which you then renew through surveillance audits. Complying with the QMSR does <em>not</em> make you "ISO 13485 certified," even though the requirements are now nearly the same. If a customer, distributor, or foreign regulator asks for your ISO 13485 certificate, only a registrar audit gets you one. <a href="https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions" target="_blank" rel="noopener">The FDA has stated it will not require certificates of conformance to ISO 13485 and will not issue them</a><sup class="cite"><a href="#src-4">4</a></sup> — and that holding one does not exempt a manufacturer from an FDA inspection.</p>
 
           <h3>2. FDA inspections vs registrar audits</h3>
-          <p>The FDA <strong>inspects</strong>; registrars <strong>audit</strong>. FDA inspections can be unannounced (for domestic manufacturers), are backed by enforcement power — Form 483 observations, Warning Letters, import alerts, consent decrees — and cost you nothing directly. Registrar audits are scheduled, contractual, and paid for by you; the worst outcome is losing your certificate. Your QMS has to be ready for both postures: the scheduled deep-dive and the investigator who shows up Tuesday morning.</p>
+          <p>The FDA <strong>inspects</strong>; registrars <strong>audit</strong>. FDA inspections <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section374&amp;num=0&amp;edition=prelim" target="_blank" rel="noopener">can be unannounced</a><sup class="cite"><a href="#src-5">5</a></sup> (for domestic manufacturers), are backed by enforcement power — <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions" target="_blank" rel="noopener">Form 483 observations</a><sup class="cite"><a href="#src-6">6</a></sup>, <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters" target="_blank" rel="noopener">Warning Letters</a><sup class="cite"><a href="#src-7">7</a></sup>, import alerts, consent decrees — and cost you nothing directly. Registrar audits are scheduled, contractual, and paid for by you; the worst outcome is losing your certificate. Your QMS has to be ready for both postures: the scheduled deep-dive and the investigator who shows up Tuesday morning.</p>
 
           <h3>3. The US-specific additions in the QMSR</h3>
           <p>The QMSR layers several requirements on top of ISO 13485 that a "pure ISO" quality system won't cover:</p>
           <ul>
-            <li><strong>Records control (§ 820.35):</strong> complaint and servicing records must support <strong>Medical Device Reporting (21 CFR Part 803)</strong> determinations, records must carry the <strong>UDI</strong> where applicable, and FDA's signature/date expectations apply.</li>
-            <li><strong>Labeling and packaging controls (§ 820.45):</strong> the FDA kept QSR-style labeling inspection requirements because it judged ISO 13485 insufficiently specific here.</li>
-            <li><strong>Statutory definitions:</strong> where the FD&amp;C Act defines a term (<em>device</em>, <em>labeling</em>, <em>manufacturer</em>...), the statutory meaning controls over ISO's.</li>
-            <li><strong>Interlocking US regulations:</strong> 21 CFR Part 11 (electronic records and signatures), Part 803 (MDR), Part 806 (corrections and removals), and Part 830 (UDI) still apply alongside the QMSR — none of them exist in the ISO world.</li>
+            <li><a href="https://www.ecfr.gov/current/title-21/section-820.35" target="_blank" rel="noopener"><strong>Records control (§ 820.35)</strong></a><sup class="cite"><a href="#src-8">8</a></sup>: complaint and servicing records must support <strong>Medical Device Reporting (21 CFR Part 803)</strong> determinations, records must carry the <strong>UDI</strong> where applicable, and FDA's signature/date expectations apply.</li>
+            <li><a href="https://www.ecfr.gov/current/title-21/section-820.45" target="_blank" rel="noopener"><strong>Labeling and packaging controls (§ 820.45)</strong></a><sup class="cite"><a href="#src-9">9</a></sup>: the FDA kept QSR-style labeling inspection requirements because it judged ISO 13485 insufficiently specific here.</li>
+            <li><a href="https://www.ecfr.gov/current/title-21/section-820.3" target="_blank" rel="noopener"><strong>Statutory definitions</strong></a><sup class="cite"><a href="#src-10">10</a></sup>: where the FD&amp;C Act defines a term (<em>device</em>, <em>labeling</em>, <em>manufacturer</em>...), the statutory meaning controls over ISO's.</li>
+            <li><strong>Interlocking US regulations:</strong> <a href="https://www.ecfr.gov/current/title-21/part-11" target="_blank" rel="noopener">21 CFR Part 11</a><sup class="cite"><a href="#src-11">11</a></sup> (electronic records and signatures), <a href="https://www.ecfr.gov/current/title-21/part-803" target="_blank" rel="noopener">Part 803</a><sup class="cite"><a href="#src-12">12</a></sup> (MDR), <a href="https://www.ecfr.gov/current/title-21/part-806" target="_blank" rel="noopener">Part 806</a><sup class="cite"><a href="#src-13">13</a></sup> (corrections and removals), and <a href="https://www.ecfr.gov/current/title-21/part-830" target="_blank" rel="noopener">Part 830</a><sup class="cite"><a href="#src-14">14</a></sup> (UDI) still apply alongside the QMSR — none of them exist in the ISO world.</li>
           </ul>
 
           <h3>4. Market access mechanics</h3>
@@ -241,7 +267,7 @@
               <tbody>
                 <tr><td><strong>Legal status</strong></td><td>US federal regulation — mandatory for the US market</td><td>Voluntary international standard</td></tr>
                 <tr><td><strong>Core requirements</strong></td><td>ISO 13485:2016, incorporated by reference</td><td>ISO 13485:2016</td></tr>
-                <tr><td><strong>Extra requirements</strong></td><td>US additions: records (§ 820.35), labeling/packaging (§ 820.45), FD&amp;C Act definitions, ties to Parts 11 / 803 / 806 / 830</td><td>None beyond the standard</td></tr>
+                <tr><td><strong>Extra requirements</strong></td><td>US additions: records (§ 820.35), labeling/packaging (§ 820.45), design &amp; development scope (<a href="https://www.ecfr.gov/current/title-21/section-820.10" target="_blank" rel="noopener">§ 820.10(c)</a><sup class="cite"><a href="#src-15">15</a></sup>), FD&amp;C Act definitions, ties to Parts 11 / 803 / 806 / 830</td><td>None beyond the standard</td></tr>
                 <tr><td><strong>Who checks</strong></td><td>FDA investigators (inspections, potentially unannounced)</td><td>Accredited certification bodies (scheduled audits)</td></tr>
                 <tr><td><strong>Outcome</strong></td><td>Compliance (or 483s, Warning Letters, enforcement)</td><td>Certificate, maintained via surveillance audits</td></tr>
                 <tr><td><strong>Markets served</strong></td><td>United States</td><td>EU, Canada (via MDSAP), UK, Australia, Japan, and most others</td></tr>
@@ -260,6 +286,53 @@
             <p>Talk it through with Nellie Bushman in a free 30-minute consultation — which markets you're targeting, what your QMS needs now, and what can wait.</p>
             <a href="https://calendly.com/bushmanqc?utm_source=website&utm_medium=resources-fda-21-cfr-820-vs-iso-13485&utm_content=article-cta" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Book a Free Consultation</a>
           </div>
+
+          <aside class="author-bio" aria-labelledby="author-bio-name">
+            <div class="author-bio-photo">
+              <img src="/images/nellie.webp" alt="Nellie Bushman, Quality Expert and Founder of BushmanQC" width="96" height="96" loading="lazy" decoding="async">
+            </div>
+            <div class="author-bio-body">
+              <p class="author-bio-eyebrow">About the author</p>
+              <p class="author-bio-name" id="author-bio-name"><a href="/about">Nellie Bushman</a></p>
+              <p class="author-bio-role">Quality Expert &amp; Founder, BushmanQC</p>
+              <p class="author-bio-text">Nellie Bushman is the Quality Expert &amp; Founder of BushmanQC, with 25+ years of medical device quality management experience. She specializes in helping small and startup medical device companies with their Quality System implementation needs, providing expert guidance and virtual solutions that reduce costs while maintaining full compliance.</p>
+              <ul class="author-bio-tags">
+                <li class="author-bio-tag">Virtual QMS</li>
+                <li class="author-bio-tag">FDA 21 CFR 820</li>
+                <li class="author-bio-tag">ISO 13485</li>
+                <li class="author-bio-tag">21 CFR Part 11</li>
+                <li class="author-bio-tag">CAPA</li>
+                <li class="author-bio-tag">FDA Audit Preparation</li>
+              </ul>
+              <p class="author-bio-links">
+                <a href="/about">More about Nellie</a>
+                <a href="mailto:nellie@bushmanqc.com">nellie@bushmanqc.com</a>
+                <a href="https://www.linkedin.com/in/nellie-bushman-1986784" target="_blank" rel="noopener">LinkedIn</a>
+              </p>
+            </div>
+          </aside>
+
+          <section class="article-sources" aria-labelledby="sources-heading">
+            <h2 id="sources-heading">Sources</h2>
+            <ol>
+              <li id="src-1">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-820" target="_blank" rel="noopener">21 CFR Part 820 — Quality Management System Regulation</a>. Accessed August 27, 2026.</li>
+              <li id="src-2">Office of the Federal Register. <a href="https://www.federalregister.gov/documents/2024/02/02/2024-01709/medical-devices-quality-system-regulation-amendments" target="_blank" rel="noopener">Medical Devices; Quality System Regulation Amendments, 89 FR 7496</a>. Accessed August 27, 2026.</li>
+              <li id="src-3">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.7" target="_blank" rel="noopener">21 CFR 820.7 — Incorporation by reference</a>. Accessed August 27, 2026.</li>
+              <li id="src-4">U.S. Food and Drug Administration. <a href="https://www.fda.gov/medical-devices/quality-management-system-regulation-qmsr/quality-management-system-regulation-frequently-asked-questions" target="_blank" rel="noopener">Quality Management System Regulation: Frequently Asked Questions</a>. Accessed August 27, 2026.</li>
+              <li id="src-5">Office of the Law Revision Counsel, U.S. House of Representatives. <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section374&amp;num=0&amp;edition=prelim" target="_blank" rel="noopener">21 U.S.C. 374 — Factory inspection</a>. Accessed August 27, 2026.</li>
+              <li id="src-6">U.S. Food and Drug Administration. <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/fda-form-483-frequently-asked-questions" target="_blank" rel="noopener">FDA Form 483 Frequently Asked Questions</a>. Accessed August 27, 2026.</li>
+              <li id="src-7">U.S. Food and Drug Administration. <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters" target="_blank" rel="noopener">Warning Letters</a>. Accessed August 27, 2026.</li>
+              <li id="src-8">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.35" target="_blank" rel="noopener">21 CFR 820.35 — Control of records</a>. Accessed August 27, 2026.</li>
+              <li id="src-9">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.45" target="_blank" rel="noopener">21 CFR 820.45 — Device labeling and packaging controls</a>. Accessed August 27, 2026.</li>
+              <li id="src-10">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.3" target="_blank" rel="noopener">21 CFR 820.3 — Definitions</a>. Accessed August 27, 2026.</li>
+              <li id="src-11">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-11" target="_blank" rel="noopener">21 CFR Part 11 — Electronic Records; Electronic Signatures</a>. Accessed August 27, 2026.</li>
+              <li id="src-12">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-803" target="_blank" rel="noopener">21 CFR Part 803 — Medical Device Reporting</a>. Accessed August 27, 2026.</li>
+              <li id="src-13">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-806" target="_blank" rel="noopener">21 CFR Part 806 — Medical Devices; Reports of Corrections and Removals</a>. Accessed August 27, 2026.</li>
+              <li id="src-14">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/part-830" target="_blank" rel="noopener">21 CFR Part 830 — Unique Device Identification</a>. Accessed August 27, 2026.</li>
+              <li id="src-15">Electronic Code of Federal Regulations. <a href="https://www.ecfr.gov/current/title-21/section-820.10" target="_blank" rel="noopener">21 CFR 820.10 — Requirements for a quality management system</a>. Accessed August 27, 2026.</li>
+            </ol>
+            <p class="article-sources-note">All sources are US federal primary sources (eCFR, the Federal Register, FDA.gov, or the US Code). Regulatory text changes — check the linked source for the current version before relying on it.</p>
+          </section>
 
           <p style="margin-top:32px;"><em>Related reading: <a href="/resources/qmsr-transition-checklist">The FDA QMSR 10-point compliance checklist</a> &middot; <a href="/resources/qms-cost-medical-device-startup">What a QMS really costs a startup</a> &middot; <a href="/faq">Virtual QMS FAQ</a></em></p>
         </article>
