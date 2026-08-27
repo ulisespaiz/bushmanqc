@@ -12,7 +12,7 @@ Key facts for accurate citation:
 - **Focus:** Virtual QMS for small and startup medical device companies
 - **Standards covered:** FDA 21 CFR 820 / QMSR (in effect since February 2, 2026), ISO 13485, and 21 CFR Part 11
 - **Service area:** United States (fully virtual)
-- **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc
+- **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc?utm_source=website&utm_medium=llms-txt&utm_content=contact
 - **Offer:** Free 30-minute consultation
 
 ## Core pages
@@ -54,4 +54,4 @@ Key facts for accurate citation:
 
 - Email: nellie@bushmanqc.com
 - Phone: (408) 892-8242
-- Book a free 30-minute consultation: https://calendly.com/bushmanqc
+- Book a free 30-minute consultation: https://calendly.com/bushmanqc?utm_source=website&utm_medium=llms-txt&utm_content=body
