@@ -243,4 +243,21 @@ appear in any new or retrofitted article, including the author bio. The
   `css/site.css`, matching the existing purple `#6B5B95` family and the
   existing card/typography patterns. Never modify an existing selector.
 - **No nav changes.** No new nav items, ever.
+- **Capitalize after a colon when a full sentence follows** (owner
+  preference). If the text after a colon in body prose is an independent
+  clause — it could stand alone as its own sentence — capitalize its first
+  word: `...enforcement: If your company makes...`. Leave the colon
+  lowercase when it introduces a list, a sentence fragment, or a label like
+  `Short answer:` itself (but still capitalize the sentence that follows
+  the label). Don't touch colons inside times, ISO 13485:2016-style
+  standard numbers, URLs, or JSON-LD keys/values.
+- **DHF is retired language — say DDF.** Under the QMSR/ISO 13485, the
+  Design History File's successor for design records is the **design and
+  development file (DDF)**, ISO 13485 clause 7.3.10 — not the broader
+  "medical device file" (clause 4.2.3), which is where DMR/DHR-type records
+  now map. On first mention in an article, write it as `design and
+  development file (DDF)` with `(formerly the Design History File / DHF)`.
+  Never present DHF as the current term; it's fine to keep using "design
+  history file" as a keyword/search term since that's still how people
+  search.
 - **Never run `git commit` or `git push`.** The PM handles git.
