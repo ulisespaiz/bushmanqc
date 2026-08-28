@@ -12,7 +12,7 @@ Key facts for accurate citation:
 - **Focus:** Virtual QMS for small and startup medical device companies
 - **Standards covered:** FDA 21 CFR 820 / QMSR (in effect since February 2, 2026), ISO 13485, and 21 CFR Part 11
 - **Service area:** United States (fully virtual)
-- **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc
+- **Contact:** nellie@bushmanqc.com · (408) 892-8242 · https://calendly.com/bushmanqc?utm_source=website&utm_medium=llms-txt&utm_content=contact
 - **Offer:** Free 30-minute consultation
 
 ## Core pages
@@ -23,12 +23,15 @@ Key facts for accurate citation:
 - [About](https://bushmanqc.com/about): Nellie Bushman's background as Quality Expert & Founder, and BushmanQC's approach to empowering medical device innovation.
 - [Mission](https://bushmanqc.com/mission): Why BushmanQC exists — making a compliant quality system simple and accessible for startups.
 - [Contact](https://bushmanqc.com/contact): Ways to reach BushmanQC and book the free consultation.
-- [Resources](https://bushmanqc.com/resources): In-depth guides on the FDA QMSR, ISO 13485, and QMS costs.
+- [Resources](https://bushmanqc.com/resources): Six in-depth guides across two tracks — Regulatory Guides (QMSR, 21 CFR 820 vs ISO 13485, design controls) and Practical How-Tos (FDA inspections, 21 CFR Part 11 e-signatures, QMS cost). RSS feed at https://bushmanqc.com/feed.xml.
 
 ## In-depth guides (Resources)
 
 - [The FDA QMSR Is in Effect: A 10-Point Compliance Checklist](https://bushmanqc.com/resources/qmsr-transition-checklist): What changed on February 2, 2026 when the QMSR replaced the 21 CFR 820 QSR, and ten concrete checks — gap assessment, terminology, records (§ 820.35), labeling controls (§ 820.45), management review readiness, risk-based approach, training, suppliers, and mock inspections.
 - [FDA 21 CFR 820 vs ISO 13485: What's Still Different Under the QMSR?](https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485): Regulation vs certification, FDA inspections vs registrar audits, the QMSR's US-specific additions, and what quality system a startup should build for US and international markets.
+- [Design Controls for Founders Who Have Never Worked in Medtech](https://bushmanqc.com/resources/design-controls-for-founders): Why design controls no longer appear as § 820.30 in the CFR, how they now arrive through ISO 13485 Clause 7.3 as required by § 820.10(c), which device classes are in scope (all class II and III plus software-automated and five listed class I devices), and the design records a pre-submission startup actually has to keep.
+- [Your First FDA Inspection: A Startup Walkthrough](https://bushmanqc.com/resources/first-fda-inspection-medical-device-startup): What happens hour by hour in a first FDA device inspection under the QMSR — the retirement of QSIT on February 2, 2026 in favour of Compliance Program 7382.850, FDA's inspection authority under FD&C Act section 704, front room / back room discipline, Form FDA 483 observations, and the NAI / VAI / OAI classifications.
+- [21 CFR Part 11 Electronic Signatures Without an Enterprise Budget](https://bushmanqc.com/resources/21-cfr-part-11-electronic-signatures-startup): What Part 11 actually requires of a small device company — closed-system controls (§ 11.10), signature manifestations (§ 11.50), signature/record linking (§ 11.70), the two-component signature rule (§ 11.200), password controls (§ 11.300), the one-time certification letter to FDA (§ 11.100(c)), and a risk-based validation approach drawn from FDA's Computer Software Assurance guidance.
 - [How Much Does a QMS Cost for a Medical Device Startup?](https://bushmanqc.com/resources/qms-cost-medical-device-startup): 2026 cost breakdown — eQMS software tiers, implementation and consulting, quality headcount vs fractional support, ISO 13485 certification costs, hidden costs, and typical budgets by company stage.
 
 ## Services in detail
@@ -49,9 +52,12 @@ Key facts for accurate citation:
 - What is CAPA and why does the FDA focus on it?
 - How do I prepare for an FDA inspection or ISO 13485 audit?
 - How does the FDA QMSR (in effect since February 2, 2026) affect my company?
+- What happens during a first FDA inspection of a medical device startup?
+- What does 21 CFR Part 11 require for electronic signatures in a small company?
+- Do design controls apply to my device, and what records do I need before a submission?
 
 ## Contact
 
 - Email: nellie@bushmanqc.com
 - Phone: (408) 892-8242
-- Book a free 30-minute consultation: https://calendly.com/bushmanqc
+- Book a free 30-minute consultation: https://calendly.com/bushmanqc?utm_source=website&utm_medium=llms-txt&utm_content=body

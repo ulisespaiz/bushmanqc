@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>BushmanQC Resources</title>
+    <link>https://bushmanqc.com/resources</link>
+    <atom:link href="https://bushmanqc.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Practical, plain-English guides on the FDA QMSR, 21 CFR 820, ISO 13485, design controls, 21 CFR Part 11, FDA inspections, and quality system cost for small and startup medical device companies. Written by Nellie Bushman, Quality Expert &amp; Founder of BushmanQC.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 BushmanQC. All rights reserved.</copyright>
+    <managingEditor>nellie@bushmanqc.com (Nellie Bushman)</managingEditor>
+    <webMaster>nellie@bushmanqc.com (Nellie Bushman)</webMaster>
+    <generator>Hand-written static HTML</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>1440</ttl>
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    <image>
+      <url>https://bushmanqc.com/images/og-image.jpg</url>
+      <title>BushmanQC Resources</title>
+      <link>https://bushmanqc.com/resources</link>
+    </image>
+
+    <item>
+      <title>Design Controls for Founders Who Have Never Worked in Medtech</title>
+      <link>https://bushmanqc.com/resources/design-controls-for-founders</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/design-controls-for-founders</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>Design Controls</category>
+      <description>Design controls no longer appear as their own section of the CFR. They reach you through ISO 13485 Clause 7.3, required by 21 CFR 820.10(c). Here is which devices are in scope, what the records are called now, and what a pre-submission startup actually has to keep.</description>
+    </item>
+
+    <item>
+      <title>Your First FDA Inspection: A Startup Walkthrough</title>
+      <link>https://bushmanqc.com/resources/first-fda-inspection-medical-device-startup</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/first-fda-inspection-medical-device-startup</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>FDA Inspections</category>
+      <description>What actually happens when an FDA investigator arrives — under the inspection program that replaced QSIT on February 2, 2026. Credentials and Form 482, the opening meeting, front room and back room, Form FDA 483 observations, and the NAI, VAI and OAI classifications.</description>
+    </item>
+
+    <item>
+      <title>21 CFR Part 11 Electronic Signatures Without an Enterprise Budget</title>
+      <link>https://bushmanqc.com/resources/21-cfr-part-11-electronic-signatures-startup</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/21-cfr-part-11-electronic-signatures-startup</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>Part 11 and E-Signatures</category>
+      <description>Part 11 is a set of controls, not a product you buy. Closed-system controls, signature manifestations, signature and record linking, the two-component signature rule, password controls, the one-time certification letter to FDA, and a risk-based way to validate what you use.</description>
+    </item>
+
+    <item>
+      <title>The FDA QMSR Is in Effect: A 10-Point Compliance Checklist</title>
+      <link>https://bushmanqc.com/resources/qmsr-transition-checklist</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/qmsr-transition-checklist</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>FDA QMSR</category>
+      <description>The QMSR replaced the 21 CFR 820 QSR on February 2, 2026, with no grace period. Ten concrete checks to confirm your medical device quality system is compliant, or to find the gaps before an FDA investigator does.</description>
+    </item>
+
+    <item>
+      <title>FDA 21 CFR 820 vs ISO 13485: What's Still Different Under the QMSR?</title>
+      <link>https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/fda-21-cfr-820-vs-iso-13485</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>Regulatory Strategy</category>
+      <description>The QMSR harmonized the FDA's quality regulation with ISO 13485:2016, but the two still are not interchangeable. Regulation versus certification, inspections versus registrar audits, and the US-specific additions, explained.</description>
+    </item>
+
+    <item>
+      <title>How Much Does a QMS Cost for a Medical Device Startup?</title>
+      <link>https://bushmanqc.com/resources/qms-cost-medical-device-startup</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/qms-cost-medical-device-startup</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>Budgeting</category>
+      <description>A realistic 2026 breakdown of medical device QMS costs — eQMS software, consulting, headcount, and ISO 13485 certification — plus the hidden costs of getting it wrong, and how a Virtual QMS changes the math for a startup.</description>
+    </item>
+
+  </channel>
+</rss>
