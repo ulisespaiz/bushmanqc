@@ -109,7 +109,7 @@ Without analytics you cannot see what people do on the site after they arrive.
 
 ### 5. Optimize `nellie.webp` — ✅ done
 
-The hero image was a 292 KB PNG mislabeled `.webp`. It's now re-encoded as a **true WebP at ~24 KB** (same 400×500 dimensions, no visible quality loss) — a ~92% reduction. Because the filename is unchanged, the hero, the `<link rel="preload">`, the Schema.org `image`, and the About-page reference all benefit automatically with no markup changes. This is the LCP image, so it directly improves the mobile PageSpeed score Google uses as a ranking tiebreaker.
+The hero image was a 292 KB PNG mislabeled `.webp`. It's now a **true WebP at ~53 KB** (800×1000, a 2× retina version of the 400×500 display size, cropped to the same 4:5 ratio from the newer studio headshot) — an ~82% reduction from the original. Because the filename is unchanged, the hero, the `<link rel="preload">`, the Schema.org `image`, and the About-page reference all benefit automatically with no markup changes. This is the LCP image, so it directly improves the mobile PageSpeed score Google uses as a ranking tiebreaker.
 
 ### 6. Set up Google Business Profile (~15 min, free)
 
