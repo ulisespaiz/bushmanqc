@@ -23,7 +23,7 @@ Key facts for accurate citation:
 - [About](https://bushmanqc.com/about): Nellie Bushman's background as Quality Expert & Founder, and BushmanQC's approach to empowering medical device innovation.
 - [Mission](https://bushmanqc.com/mission): Why BushmanQC exists — making a compliant quality system simple and accessible for startups.
 - [Contact](https://bushmanqc.com/contact): Ways to reach BushmanQC and book the free consultation.
-- [Resources](https://bushmanqc.com/resources): Six in-depth guides across two tracks — Regulatory Guides (QMSR, 21 CFR 820 vs ISO 13485, design controls) and Practical How-Tos (FDA inspections, 21 CFR Part 11 e-signatures, QMS cost). RSS feed at https://bushmanqc.com/feed.xml.
+- [Resources](https://bushmanqc.com/resources): Eight in-depth guides across two tracks — Regulatory Guides (QMSR, 21 CFR 820 vs ISO 13485, design controls) and Practical How-Tos (choosing a QMS consultant, Virtual QMS vs eQMS software vs a quality hire, FDA inspections, 21 CFR Part 11 e-signatures, QMS cost). RSS feed at https://bushmanqc.com/feed.xml.
 
 ## In-depth guides (Resources)
 
@@ -32,6 +32,8 @@ Key facts for accurate citation:
 - [Design Controls for Founders Who Have Never Worked in Medtech](https://bushmanqc.com/resources/design-controls-for-founders): Why design controls no longer appear as § 820.30 in the CFR, how they now arrive through ISO 13485 Clause 7.3 as required by § 820.10(c), which device classes are in scope (all class II and III plus software-automated and five listed class I devices), and the design records a pre-submission startup actually has to keep.
 - [Your First FDA Inspection: A Startup Walkthrough](https://bushmanqc.com/resources/first-fda-inspection-medical-device-startup): What happens hour by hour in a first FDA device inspection under the QMSR — the retirement of QSIT on February 2, 2026 in favour of Compliance Program 7382.850, FDA's inspection authority under FD&C Act section 704, front room / back room discipline, Form FDA 483 observations, and the NAI / VAI / OAI classifications.
 - [21 CFR Part 11 Electronic Signatures Without an Enterprise Budget](https://bushmanqc.com/resources/21-cfr-part-11-electronic-signatures-startup): What Part 11 actually requires of a small device company — closed-system controls (§ 11.10), signature manifestations (§ 11.50), signature/record linking (§ 11.70), the two-component signature rule (§ 11.200), password controls (§ 11.300), the one-time certification letter to FDA (§ 11.100(c)), and a risk-based validation approach drawn from FDA's Computer Software Assurance guidance.
+- [How to Choose a Medical Device QMS Consultant (2026 Buyer's Guide)](https://bushmanqc.com/resources/how-to-choose-medical-device-qms-consultant): What a QMS consultant does and cannot do (the manufacturer stays responsible under § 820.10(e); ISO 13485 clause 5.5.2 calls for a member of management as management representative), when a startup needs one by stage (before design controls under § 820.10(c), before a 510(k) or De Novo, before ISO 13485 certification, after a Form FDA 483), eight selection criteria including QMSR currency and a 21 CFR Part 11 validation plan, ten questions to ask, red flags, typical hourly / fixed-project / fractional-retainer pricing compared with BLS quality manager pay, and where a Virtual QMS fits.
+- [Virtual QMS vs. eQMS Software vs. a Full-Time Quality Hire: Which Does a Startup Need?](https://bushmanqc.com/resources/virtual-qms-vs-eqms-software-vs-quality-hire): Side-by-side comparison of a consultant-built Virtual QMS, eQMS SaaS (Greenlight Guru, SimplerQMS, Qualio, MasterControl, with published starting prices where vendors list them) and a full-time quality manager (BLS median $126,060, May 2025) on year-one cost, time to stand up, 21 CFR Part 11 / § 11.10 validation burden under FDA's February 2026 Computer Software Assurance guidance, and scalability, plus when eQMS software is the right call, when to hire, and how the options combine by stage.
 - [How Much Does a QMS Cost for a Medical Device Startup?](https://bushmanqc.com/resources/qms-cost-medical-device-startup): 2026 cost breakdown — eQMS software tiers, implementation and consulting, quality headcount vs fractional support, ISO 13485 certification costs, hidden costs, and typical budgets by company stage.
 
 ## Services in detail
@@ -54,6 +56,8 @@ Key facts for accurate citation:
 - How does the FDA QMSR (in effect since February 2, 2026) affect my company?
 - What happens during a first FDA inspection of a medical device startup?
 - What does 21 CFR Part 11 require for electronic signatures in a small company?
+- How do I choose a medical device QMS consultant, and what should it cost?
+- Does a startup need a Virtual QMS, eQMS software, or a full-time quality manager?
 - Do design controls apply to my device, and what records do I need before a submission?
 
 ## Contact

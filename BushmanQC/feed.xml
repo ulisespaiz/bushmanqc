@@ -12,13 +12,33 @@
     <generator>Hand-written static HTML</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>1440</ttl>
-    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
     <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
     <image>
       <url>https://bushmanqc.com/images/og-image.jpg</url>
       <title>BushmanQC Resources</title>
       <link>https://bushmanqc.com/resources</link>
     </image>
+
+    <item>
+      <title>How to Choose a Medical Device QMS Consultant (2026 Buyer's Guide)</title>
+      <link>https://bushmanqc.com/resources/how-to-choose-medical-device-qms-consultant</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/how-to-choose-medical-device-qms-consultant</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>Choosing a Consultant</category>
+      <description>What a medical device QMS consultant does, when a startup needs one (before design controls, before a 510(k) or De Novo, before ISO 13485 certification, after a Form 483), eight selection criteria, questions to ask before signing, red flags, how hourly, project and fractional retainer pricing compare, and where a Virtual QMS fits.</description>
+    </item>
+
+    <item>
+      <title>Virtual QMS vs. eQMS Software vs. a Full-Time Quality Hire: Which Does a Startup Need?</title>
+      <link>https://bushmanqc.com/resources/virtual-qms-vs-eqms-software-vs-quality-hire</link>
+      <guid isPermaLink="true">https://bushmanqc.com/resources/virtual-qms-vs-eqms-software-vs-quality-hire</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <dc:creator>Nellie Bushman</dc:creator>
+      <category>QMS Strategy</category>
+      <description>A decision guide comparing a consultant-built Virtual QMS, eQMS software and a full-time quality manager on year-one cost, time to stand up, 21 CFR Part 11 validation burden and scalability, with published vendor prices and BLS salary data, plus when each option fits and how they combine.</description>
+    </item>
 
     <item>
       <title>Design Controls for Founders Who Have Never Worked in Medtech</title>
