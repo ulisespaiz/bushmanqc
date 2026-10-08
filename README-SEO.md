@@ -17,13 +17,13 @@ How the AI engines decide who to mention (so you know where effort pays):
 | Perplexity | Review sites, comparison pages, directories, Reddit | Directory/review listings, genuine Reddit answers |
 | Copilot | Bing | Bing Webmaster Tools — its **AI Performance** report shows Copilot citations |
 
-The site itself is already well built for AI (answer-first articles, schema, `llms.txt`, AI crawlers allowed). The gap is **off-site mentions**. Everything needed for that is in **[`OFFSITE-VISIBILITY-KIT.md`](OFFSITE-VISIBILITY-KIT.md)**: click-by-click steps and ready-to-paste copy for Search Console, Bing, Brave, Google Business Profile, LinkedIn, QMS-vendor partner directories (Qualio, Greenlight Guru), free directories, Reddit, guest posts, review requests, and a free monthly AI-visibility check.
+The site itself is already well built for AI (answer-first articles, schema, `llms.txt`, AI crawlers allowed). The gap is **off-site mentions**. Everything needed for that goes in **`OFFSITE-VISIBILITY-KIT.md`** (landing in a follow-up PR): click-by-click steps and ready-to-paste copy for Search Console, Bing, Brave, Google Business Profile, LinkedIn, QMS-vendor partner directories (Qualio, Greenlight Guru), free directories, Reddit, guest posts, review requests, and a free monthly AI-visibility check.
 
 What changed in the code:
 
 - **`www.bushmanqc.com` now 301s to `bushmanqc.com`.** It had been serving a full duplicate copy of the site with 200s. A tiny Worker (`worker/index.js`, wired in `wrangler.jsonc` with `run_worker_first`) does the redirect and hands every other request to static assets. Verified locally that `_headers`, `_redirects`, the `.html` → clean-URL 301s and the 404 page all still apply. Runs on every request, which is well within the Workers free tier for a site this size.
 - **IndexNow.** Key file at `BushmanQC/d7ca707a9762b905d6a8af3ae9f7251a.txt`, a submit script at `scripts/indexnow.sh`, and a GitHub Action (`.github/workflows/indexnow.yml`) that, after each push to `main`, waits for the deploy to go live and pings IndexNow with the pages that changed. Bing, Copilot and the other IndexNow engines then recrawl within minutes instead of days. To resubmit everything: Actions → IndexNow ping → Run workflow. Do not delete or rename the key file.
-- **Two new buyer-intent articles** in `/resources`, written for the questions founders actually ask AI assistants: how to choose a medical device QMS consultant, and Virtual QMS vs eQMS software vs a full-time quality hire.
+- **Coming in a follow-up PR: two new buyer-intent articles** in `/resources`, written for the questions founders actually ask AI assistants: how to choose a medical device QMS consultant, and Virtual QMS vs eQMS software vs a full-time quality hire.
 
 Owner to-dos, in order (all free):
 
