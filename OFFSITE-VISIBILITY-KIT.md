@@ -174,7 +174,7 @@ To check it's working, open **URL Submission / IndexNow** in Bing Webmaster Tool
    - **Logo** and **cover photo:** add both.
    - To check the address stays hidden: **Edit profile → Location → Business location**, and make sure **Show business address to customers** is **Off**.
 
-### 4b. Business description (limit: 750 characters, no links or URLs, no promotions or prices), 739 characters
+### 4b. Business description (limit: 750 characters, no links or URLs, no promotions or prices), 722 characters
 
 ```text
 BushmanQC builds Virtual Quality Management Systems (VQMS) for small and startup medical device companies. Led by Nellie Bushman, Quality Expert & Founder, with 25+ years of quality management experience and 50+ QMS implementations, BushmanQC helps teams meet FDA 21 CFR 820 / QMSR (in effect since February 2, 2026), ISO 13485 and 21 CFR Part 11 without building a large in-house quality department. Services include Virtual QMS implementation using a structured 7-step process, document control management, training and employee qualification, supplier management, CAPA implementation, and quality system remediation, including gap assessments. BushmanQC works with clients virtually and on-site within its service area.
@@ -230,13 +230,13 @@ There are three parts: **(a)** create the BushmanQC Page, **(b)** link it from N
    - **Custom button:** *Visit website* or *Contact us*, pointing to `https://calendly.com/bushmanqc`
 6. Add a cover image, and share the Page's first post: link to the newest `/resources` guide.
 
-### 5b. Tagline (limit: 120 characters), 105 characters
+### 5b. Tagline (limit: 120 characters), 104 characters
 
 ```text
 Virtual QMS for medical device startups: FDA QMSR (21 CFR 820), ISO 13485 & Part 11 compliance, remotely
 ```
 
-### 5c. Overview / About (limit: 2,000 characters), 1,323 characters
+### 5c. Overview / About (limit: 2,000 characters), 1,163 characters
 
 ```text
 BushmanQC (BushmanQC Virtual QMS) builds Virtual Quality Management Systems (VQMS) for small and startup medical device companies in the United States.
@@ -338,7 +338,7 @@ Startups often pick an eQMS first and then ask "who can implement this for us?" 
 BushmanQC is a fully virtual quality consultancy led by Nellie Bushman, Quality Expert & Founder, with 25+ years of quality management experience and 50+ QMS implementations. We build Virtual Quality Management Systems for small and startup US medical device companies to meet FDA QMSR / 21 CFR 820, ISO 13485 and 21 CFR Part 11, and we provide document control, training and employee qualification, supplier management, CAPA and quality system remediation (gap assessments). Many of our clients are choosing their first eQMS. We'd like to [FILL IN: refer / implement / configure] [PLATFORM NAME] where it's the right fit, and to be listed in your partner directory so startups can find experienced implementation help. [FILL IN: clients you have already set up on this platform, if any.]
 ```
 
-**Directory listing short version** (for directories that ask for a one-liner), 147 characters:
+**Directory listing short version** (for directories that ask for a one-liner), 141 characters:
 
 ```text
 Virtual QMS for small and startup US medical device companies: FDA QMSR (21 CFR 820), ISO 13485 and Part 11, built and run by Nellie Bushman.
@@ -625,13 +625,13 @@ Copy these exactly. Consistency across sites is what lets search engines and AI 
 BushmanQC builds virtual quality management systems for small and startup US medical device companies: FDA QMSR (21 CFR 820), ISO 13485 and Part 11.
 ```
 
-**Short description (limit: 300 characters), 286 characters**
+**Short description (limit: 300 characters), 281 characters**
 
 ```text
 BushmanQC (BushmanQC Virtual QMS) is a fully virtual consultancy led by Nellie Bushman, Quality Expert & Founder. It builds right-sized Virtual Quality Management Systems for small and startup US medical device companies to meet FDA QMSR (21 CFR 820), ISO 13485 and 21 CFR Part 11.
 ```
 
-**Long description (limit: 750 characters), 733 characters.** Contains no URLs, so it's also safe for Google Business Profile with one edit (see note).
+**Long description (limit: 750 characters), 735 characters.** Contains no URLs, so it's also safe for Google Business Profile with one edit (see note).
 
 ```text
 BushmanQC (BushmanQC Virtual QMS) builds Virtual Quality Management Systems (VQMS) for small and startup medical device companies across the United States. Founder Nellie Bushman, Quality Expert & Founder, brings 25+ years of quality management experience and 50+ QMS implementations. BushmanQC helps teams meet FDA 21 CFR 820 / QMSR (in effect since February 2, 2026), ISO 13485 and 21 CFR Part 11 without building a large in-house quality department. Services: Virtual QMS implementation using a structured 7-step process, document control management, training and employee qualification, supplier management, CAPA implementation, and quality system remediation, including gap assessments. Fully virtual. Free 30-minute consultation.
@@ -782,6 +782,7 @@ BushmanQC (BushmanQC Virtual QMS) builds Virtual Quality Management Systems (VQM
 - Let's Talk Risk (Substack): https://naveenagarwalphd.substack.com/p/celebrating-25-lets-talk-risk-conversations
 
 **Reviews, compliance and tools**
+- Google Search spam policies (link spam): https://developers.google.com/search/docs/essentials/spam-policies
 - FTC Consumer Reviews and Testimonials Rule Q&A: https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers
 - FTC 16 CFR Part 465 final rule: https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-465-trade-regulation-rule-use-consumer-reviews-testimonials-final-rule
 - Otterly AI pricing (third-party summaries): https://www.g2.com/products/otterlyai/pricing · https://www.capterra.com/p/10023384/Otterly-AI/pricing/

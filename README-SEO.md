@@ -17,13 +17,14 @@ How the AI engines decide who to mention (so you know where effort pays):
 | Perplexity | Review sites, comparison pages, directories, Reddit | Directory/review listings, genuine Reddit answers |
 | Copilot | Bing | Bing Webmaster Tools — its **AI Performance** report shows Copilot citations |
 
-The site itself is already well built for AI (answer-first articles, schema, `llms.txt`, AI crawlers allowed). The gap is **off-site mentions**. Everything needed for that goes in **`OFFSITE-VISIBILITY-KIT.md`** (landing in a follow-up PR): click-by-click steps and ready-to-paste copy for Search Console, Bing, Brave, Google Business Profile, LinkedIn, QMS-vendor partner directories (Qualio, Greenlight Guru), free directories, Reddit, guest posts, review requests, and a free monthly AI-visibility check.
+The site itself is already well built for AI (answer-first articles, schema, `llms.txt`, AI crawlers allowed). The gap is **off-site mentions**. Everything needed for that is in **[`OFFSITE-VISIBILITY-KIT.md`](OFFSITE-VISIBILITY-KIT.md)**: click-by-click steps and ready-to-paste copy for Search Console, Bing, Brave, Google Business Profile, LinkedIn, QMS-vendor partner directories (Qualio, Greenlight Guru), free directories, Reddit, guest posts, review requests, and a free monthly AI-visibility check.
 
 What changed in the code:
 
 - **`www.bushmanqc.com` now 301s to `bushmanqc.com`.** It had been serving a full duplicate copy of the site with 200s. A tiny Worker (`worker/index.js`, wired in `wrangler.jsonc` with `run_worker_first`) does the redirect and hands every other request to static assets. Verified locally that `_headers`, `_redirects`, the `.html` → clean-URL 301s and the 404 page all still apply. Runs on every request, which is well within the Workers free tier for a site this size.
 - **IndexNow.** Key file at `BushmanQC/d7ca707a9762b905d6a8af3ae9f7251a.txt`, a submit script at `scripts/indexnow.sh`, and a GitHub Action (`.github/workflows/indexnow.yml`) that, after each push to `main`, waits for the deploy to go live and pings IndexNow with the pages that changed. Bing, Copilot and the other IndexNow engines then recrawl within minutes instead of days. To resubmit everything: Actions → IndexNow ping → Run workflow. Do not delete or rename the key file.
-- **Coming in a follow-up PR: two new buyer-intent articles** in `/resources`, written for the questions founders actually ask AI assistants: how to choose a medical device QMS consultant, and Virtual QMS vs eQMS software vs a full-time quality hire.
+- **Two new buyer-intent articles** in `/resources`, written for the questions founders actually ask AI assistants: how to choose a medical device QMS consultant, and Virtual QMS vs eQMS software vs a full-time quality hire.
+- **Pre-QMSR section numbers removed** from `services.html` and `faq.html` (21 CFR 820.30 / .40 / .50 / .100 no longer exist under the QMSR); they now cite the ISO 13485 clauses the QMSR incorporates.
 
 Owner to-dos, in order (all free):
 
@@ -31,7 +32,7 @@ Owner to-dos, in order (all free):
 2. **Bing Webmaster Tools** — "Import from Google Search Console". Then check the AI Performance report monthly.
 3. **Brave** — submit `https://bushmanqc.com/` at search.brave.com/submit-url.
 4. **Qualio and Greenlight Guru partner directories** — free listing + link from the sites that write the "best medical device consultants" lists AI engines cite; Qualio also pays referral commission.
-5. **Google Business Profile + 3–5 client reviews**, **LinkedIn company page**, **Clutch** profile.
+5. **LinkedIn company page**, **Clutch** profile with 3–5 client reviews, and **OpenRegulatory's** consultant directory. **Google Business Profile only if Nellie meets clients in person:** Google's rules exclude online-only businesses and cap a service area at about 2 hours' drive, so a fully virtual listing risks suspension. (This replaces the GBP advice in step 6 of the original playbook below.)
 6. **Send the web developer these facts for a real bio on the About page** (the single biggest on-site trust gap; we won't invent any of it): years in industry and past employers/roles, device types and classes worked on, certifications (e.g. ASQ CQA/CQE, RAC, ISO 13485 lead auditor), education, location (city/state), and 1–3 client results she's allowed to describe, even anonymously. Once added, these also go into the Person schema so AI engines can state her credentials accurately.
 
 ---
