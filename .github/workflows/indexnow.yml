@@ -1,0 +1,52 @@
+name: IndexNow ping
+
+# After a push to main deploys (Cloudflare Workers Builds), tell IndexNow which
+# pages changed so Bing / Copilot / ChatGPT search recrawl them right away.
+on:
+  push:
+    branches: [main]
+    paths: ["BushmanQC/**"]
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed page URLs
+        id: urls
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          # Manual runs, or a push whose base we can't diff, resubmit the sitemap.
+          if [[ "$GITHUB_EVENT_NAME" != "push" ]] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "list=--all" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # Changed .html files -> clean canonical URLs (index -> /, drop .html).
+          # 404 is an error page and terms is noindex, so neither is submitted.
+          urls=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- 'BushmanQC/*.html' \
+            | grep -vE '/(404|terms)\.html$' \
+            | sed -E 's#^BushmanQC/##; s#(^|/)index\.html$#\1#; s#\.html$##; s#^#https://bushmanqc.com/#' \
+            | sort -u | tr '\n' ' ' || true)
+          echo "list=$urls" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for the deploy to go live
+        if: steps.urls.outputs.list != ''
+        run: |
+          # Every content edit bumps a sitemap lastmod, so the live sitemap
+          # matching this commit means the deploy is out. Give up after
+          # 10 minutes and submit anyway.
+          for i in $(seq 1 40); do
+            if curl -fsS "https://bushmanqc.com/sitemap.xml?v=$GITHUB_SHA-$i" | cmp -s - BushmanQC/sitemap.xml; then
+              echo "Live sitemap matches this commit."; exit 0
+            fi
+            sleep 15
+          done
+          echo "Timed out waiting for the deploy; submitting anyway."
+
+      - name: Submit to IndexNow
+        if: steps.urls.outputs.list != ''
+        run: bash scripts/indexnow.sh ${{ steps.urls.outputs.list }}

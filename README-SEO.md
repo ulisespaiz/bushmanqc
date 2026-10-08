@@ -4,6 +4,38 @@ This document is for **Nellie / the site owner**. It explains what was changed i
 
 ---
 
+## October 2026 update — AI search visibility (ChatGPT, Claude, Perplexity, Copilot)
+
+**Status check on 2026-10-08: none of the owner setup steps below have been done yet.** The live site still carries `REPLACE_WITH_GSC_TOKEN` / `REPLACE_WITH_BING_TOKEN` and GA4 is still commented out, so Google and Bing have never been verified and there is no data on what's working. Doing step 1 and step 2 is worth more than everything else in this update combined.
+
+How the AI engines decide who to mention (so you know where effort pays):
+
+| Engine | Where its answers come from | What moves it |
+|---|---|---|
+| ChatGPT | OpenAI's own index + Bing; roughly half its citations are third-party listings and directories | Being listed and mentioned on *other* sites; Bing indexing |
+| Claude | Brave Search (one 2026 study: ~79% of Claude's citations match Brave's results) | Brave indexing (search.brave.com/submit-url) + real traffic |
+| Perplexity | Review sites, comparison pages, directories, Reddit | Directory/review listings, genuine Reddit answers |
+| Copilot | Bing | Bing Webmaster Tools — its **AI Performance** report shows Copilot citations |
+
+The site itself is already well built for AI (answer-first articles, schema, `llms.txt`, AI crawlers allowed). The gap is **off-site mentions**. Everything needed for that goes in **`OFFSITE-VISIBILITY-KIT.md`** (landing in a follow-up PR): click-by-click steps and ready-to-paste copy for Search Console, Bing, Brave, Google Business Profile, LinkedIn, QMS-vendor partner directories (Qualio, Greenlight Guru), free directories, Reddit, guest posts, review requests, and a free monthly AI-visibility check.
+
+What changed in the code:
+
+- **`www.bushmanqc.com` now 301s to `bushmanqc.com`.** It had been serving a full duplicate copy of the site with 200s. A tiny Worker (`worker/index.js`, wired in `wrangler.jsonc` with `run_worker_first`) does the redirect and hands every other request to static assets. Verified locally that `_headers`, `_redirects`, the `.html` → clean-URL 301s and the 404 page all still apply. Runs on every request, which is well within the Workers free tier for a site this size.
+- **IndexNow.** Key file at `BushmanQC/d7ca707a9762b905d6a8af3ae9f7251a.txt`, a submit script at `scripts/indexnow.sh`, and a GitHub Action (`.github/workflows/indexnow.yml`) that, after each push to `main`, waits for the deploy to go live and pings IndexNow with the pages that changed. Bing, Copilot and the other IndexNow engines then recrawl within minutes instead of days. To resubmit everything: Actions → IndexNow ping → Run workflow. Do not delete or rename the key file.
+- **Coming in a follow-up PR: two new buyer-intent articles** in `/resources`, written for the questions founders actually ask AI assistants: how to choose a medical device QMS consultant, and Virtual QMS vs eQMS software vs a full-time quality hire.
+
+Owner to-dos, in order (all free):
+
+1. **Google Search Console — Domain property, verified by DNS in Cloudflare.** No code change needed: Search Console gives you a TXT record, add it in Cloudflare → DNS. Then submit `sitemap.xml`. (Steps in the kit.)
+2. **Bing Webmaster Tools** — "Import from Google Search Console". Then check the AI Performance report monthly.
+3. **Brave** — submit `https://bushmanqc.com/` at search.brave.com/submit-url.
+4. **Qualio and Greenlight Guru partner directories** — free listing + link from the sites that write the "best medical device consultants" lists AI engines cite; Qualio also pays referral commission.
+5. **Google Business Profile + 3–5 client reviews**, **LinkedIn company page**, **Clutch** profile.
+6. **Send the web developer these facts for a real bio on the About page** (the single biggest on-site trust gap; we won't invent any of it): years in industry and past employers/roles, device types and classes worked on, certifications (e.g. ASQ CQA/CQE, RAC, ISO 13485 lead auditor), education, location (city/state), and 1–3 client results she's allowed to describe, even anonymously. Once added, these also go into the Person schema so AI engines can state her credentials accurately.
+
+---
+
 ## July 2026 update — clean URLs, Resources section, 404 page
 
 A second SEO pass shipped the following. **Read the three owner notes below — one of them changes what you paste into Search Console.**
